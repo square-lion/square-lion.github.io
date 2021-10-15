@@ -8,6 +8,9 @@ body {
   background-color: black;
 }
 
+h1{
+  color: white;
+}
 h2{
   color: white;
 }
@@ -61,4 +64,12 @@ footer{
 #menu-box{
   margin-top: 40px;
   margin-bottom: 30px;
+}
+
+#game-box{
+  border-radius: 50px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
+  margin-bottom: 20px;
 }
