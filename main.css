@@ -5,6 +5,8 @@ nav{
 
 body {
   background-image: url(images/background.png);
+  background-size: 150px 154px;
+  background-repeat: repeat;
   background-color: black;
 }
 
@@ -79,3 +81,40 @@ footer{
   margin-left: 100px;
   margin-right: 100px;
 }
+
+#page-header{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#news-article{
+  background-color: black;
+  border-radius: 15px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
+  margin: 10px;
+}
+#news-image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
+}
+#news-header{
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  color: white;
+}
+#news-body{
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  color: lightgray;
+}
+
