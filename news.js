@@ -15,7 +15,7 @@ function appendData(data) {
         if(i % 3 == 0){
             var row = document.createElement("div")
             row.className = "row";
-            
+            mainContainer.appendChild(div);
         }
         var div = document.createElement("div");
         div.innerHTML = data[i].title;
