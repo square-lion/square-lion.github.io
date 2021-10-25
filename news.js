@@ -10,10 +10,11 @@ fetch('news.json')
 });
 
 function appendData(data) {
-        var mainContainer = document.getElementById("myData");
+        var mainContainer = document.getElementById("menu-box");
     for (var i = 0; i < data.length; i++) {
         var div = document.createElement("div");
         div.innerHTML = data[i].title;
         mainContainer.appendChild(div);
     }
 }
+
