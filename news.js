@@ -23,7 +23,7 @@ function appendData(data) {
         var image = document.createElement("img");
         image.className = "img-fluid";
         image.id = "news-image";
-        iamge.src = data[i].image;
+        image.src = data[i].image;
 
         var article = document.createElement("div");
         article.className = "col-sm";
