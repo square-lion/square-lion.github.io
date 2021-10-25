@@ -19,12 +19,6 @@ function appendData(data) {
             mainContainer.append(row);
         }
 
-        //For Each Article
-        var image = document.createElement("img");
-        image.className = "img-fluid";
-        image.id = "news-image";
-        image.src = data[i].image;
-
         var article = document.createElement("div");
         article.className = "col-sm";
         article.id = "news-article";
@@ -43,13 +37,16 @@ function appendData(data) {
         date.textContent = data[i].date;
 
         if(i < 6){
+            var image = document.createElement("img");
+            image.className = "img-fluid";
+            image.id = "news-image";
+            image.src = data[i].image;
+
             article.append(image, title, body, date);
         }
         else{
             article.append(title, body, date);
         }
-
-
 
         row.append(article)
     }
