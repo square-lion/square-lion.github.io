@@ -36,7 +36,7 @@ function appendData(data) {
         date.id = "news-footer";
         date.textContent = data[i].date;
 
-        if(i < 6){
+        if(data[i].hasOwnProperty("image")){
             var image = document.createElement("img");
             image.className = "img-fluid";
             image.id = "news-image";
@@ -44,7 +44,7 @@ function appendData(data) {
 
             article.append(image, title, body, date);
         }
-        else{
+        else if (data[i].hasOwnProperty("video")){
             article.append(title, body, date);
         }
 
