@@ -20,6 +20,11 @@ function appendData(data) {
         }
 
         //For Each Article
+        var image = document.createElement("img");
+        image.className = "img-fluid";
+        image.id = "news-image";
+        iamge.src = data[i].image;
+
         var article = document.createElement("div");
         article.className = "col-sm";
         article.id = "news-article";
@@ -33,7 +38,11 @@ function appendData(data) {
         body.id = "news-body";
         body.textContent = data[i].body;
 
-        article.append(title, body);
+        var date = document.createElement("small")
+        date.id = "new-footer";
+        date.textContent = data[x].date;
+
+        article.append(title, body, date);
 
 
 
