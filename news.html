@@ -4,7 +4,7 @@
     <title>Square Lion</title>
     <link rel="shortcut icon" type="image/png" href="images/square-lion/logo.png"/>
 
-    <!--<script src = "news.js"></script> -->
+    <script src = "news.js"></script>
 
     <!-- Required for Bootstrap -->
     <meta charset="utf-8">
@@ -46,28 +46,6 @@
       <div class = "container" id="menu-box">
         <h1 id="page-header">News</h1>   
       </div>
-
-      <script>
-        fetch('news.json')
-    .then(function (response) {
-        return response.json();
-})
-.then(function (data) {
-    appendData(data);
-})
-.catch(function (err) {
-    console.log('error: ' + err);
-});
-
-function appendData(data) {
-        var mainContainer = document.getElementById("menu-box");
-    for (var i = 0; i < data.length; i++) {
-        var div = document.createElement("div");
-        div.innerHTML = data[i].title;
-        mainContainer.appendChild(div);
-    }
-}
-      </script>
 
       <!-- News -->
         <div class="container" id = "menu-box">
