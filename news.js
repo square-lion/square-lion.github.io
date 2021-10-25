@@ -10,23 +10,26 @@ fetch('news.json')
 });
 
 function appendData(data) {
-        var mainContainer = document.getElementById("menu-box");
-    for (var i = 0; i < data.length/3+1; i++) {
+    var mainContainer = document.getElementById("menu-box");
+
+    //Create first row
+    var row = document.createElement("div")
+    row.className = "row";
+    mainContainer.append(row);
+
+    for (var i = 0; i < data.length; i++) {
         if(i % 3 == 0){
-            var row = document.createElement("div")
+            row = document.createElement("div")
             row.className = "row";
             mainContainer.append(row);
-
-            for(var i = 0; i < data.length; i++){
-                var article = document.createElement("div");
-                article.className = "col-sm";
-                article.id = "news-article";
-                row.append(article)
-            }
         }
-        var div = document.createElement("div");
-        div.innerHTML = data[i].title;
-        mainContainer.appendChild(div);
+
+        //For Each Article
+        var article = document.createElement("div");
+        article.className = "col-sm";
+            article.id = "news-article";
+
+        row.append(article)
     }
 }
 
