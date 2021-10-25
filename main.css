@@ -117,4 +117,12 @@ footer{
   padding-top: 5px;
   color: lightgray;
 }
+#news-footer{
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  color: white;
+  text-align: bottom;
+}
 
