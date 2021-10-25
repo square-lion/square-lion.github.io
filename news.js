@@ -27,6 +27,10 @@ function appendData(data) {
         title.id = "news-header";
         title.textContent = data[i].title;
         data[i].title;
+        article.append(title);
+
+
+
         row.append(article)
     }
 }
