@@ -39,7 +39,7 @@ function appendData(data) {
         body.textContent = data[i].body;
 
         var date = document.createElement("small")
-        date.id = "new-footer";
+        date.id = "news-footer";
         date.textContent = data[i].date;
 
         article.append(image, title, body, date);
