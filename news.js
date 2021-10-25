@@ -23,6 +23,10 @@ function appendData(data) {
         var article = document.createElement("div");
         article.className = "col-sm";
         article.id = "news-article";
+        var title = document.createElement("h4");
+        title.id = "news-header";
+        title.textContent = data[i].title;
+        data[i].title;
         row.append(article)
     }
 }
