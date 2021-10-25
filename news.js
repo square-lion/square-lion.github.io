@@ -42,7 +42,12 @@ function appendData(data) {
         date.id = "news-footer";
         date.textContent = data[i].date;
 
-        article.append(image, title, body, date);
+        if(i < 6){
+            article.append(image, title, body, date);
+        }
+        else{
+            article.append(title, body, date);
+        }
 
 
 
