@@ -12,11 +12,6 @@ fetch('news.json')
 function appendData(data) {
     var mainContainer = document.getElementById("menu-box");
 
-    //Create first row
-    var row = document.createElement("div")
-    row.className = "row";
-    mainContainer.append(row);
-
     for (var i = 0; i < data.length; i++) {
         if(i % 3 == 0){
             row = document.createElement("div")
