@@ -17,7 +17,7 @@ function appendData(data) {
             row.className = "row";
             mainContainer.appendChild(row);
 
-            for(var i = 0; i < data.length - 3*i; i++){
+            for(var i = 0; i < data.length; i++){
                 var article = document.createElement("div");
                 article.className = "col-sm";
                 article.id = "news-article";
