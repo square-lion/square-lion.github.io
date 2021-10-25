@@ -11,10 +11,19 @@ fetch('news.json')
 
 function appendData(data) {
         var mainContainer = document.getElementById("menu-box");
-    for (var i = 0; i < data.length; i++) {
+    for (var i = 0; i < data.length/3+1; i++) {
         if(i % 3 == 0){
             var row = document.createElement("div")
             row.className = "row";
+            
+
+            for(var i = 0; i < data.length - 3*i; i++){
+                var article = document.createElement("div");
+                article.className = "col-sm";
+                article.id = "news-article";
+                row.appendChild(article);
+            }
+
             mainContainer.appendChild(row);
         }
         var div = document.createElement("div");
