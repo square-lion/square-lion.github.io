@@ -98,15 +98,6 @@ footer{
   background-repeat: repeat;
   padding: 0px;
 }
-#news-video{
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 0px;
-  title: "YouTube video player";
-  frameborder: 0;
-}
 #news-header{
   margin: 0px;
   padding-left: 10px;
@@ -127,6 +118,6 @@ footer{
   padding-right: 10px;
   padding-top: 5px;
   color: white;
-  text-align: bottom;
+  text-align: right;
 }
 

@@ -48,12 +48,15 @@ function appendData(data) {
             var video = document.createElement("iframe");
             video.id = "news-image";
             video.src = data[i].video;
-            video.width = "360";
-            video.height = "175";
+            video.width = "100%";
+            video.height = "50%";
             video.title = "YouTube video player";
             video.frameborder = "0";
             video.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
             video.setAttribute('allowFullScreen', '')
+
+
+
 
             article.append(video, title, body, date);
         }
