@@ -1,5 +1,29 @@
 [
 	{
+		"id":"28",
+		"title":"Fruit Conference Wiffle Ball",
+		"catagory":"fruit-conference-wiffle-ball",
+		"image":"./images/fruit-conference-wiffle-ball/game-1.png",
+		"body":"Square Lion and RZFL Sports have teamed up to create the Fruit Conference Wiffle Ball League. The first edited game has been posted on the Fruit Conference Wiffle Ball YouTube channel. Go watch it now!",
+		"date":"7/30/21"
+	},
+	{
+		"id":"27",
+		"title":"PACK OF THE WEEK - Planets",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/potw/planets.png",
+		"body":"The first ever pack of the week is the first super pack to be added to Decode the Code. The Planets Pack was the only super pack at the game’s release on April 17th, 2019 and included Mercury, Venus, Earth, Mars, Jupiter, and Uranus.",
+		"date":"7/30/21"
+	},
+	{
+		"id":"26",
+		"title":"Decode the Code v3.1 Update",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/tropical-icon.png",
+		"body":"Enjoy summer with the new Tropical Pack out until August 31st.",
+		"date":"7/1/21"
+	},
+	{
 		"id":"25",
 		"title":"Fish Fists Is Now Available On Mobile!",
 		"catagory":"fish-fists",
