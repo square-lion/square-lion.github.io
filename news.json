@@ -1,5 +1,53 @@
 [
 	{
+		"id":"25",
+		"title":"Fish Fists Is Now Available On Mobile!",
+		"catagory":"fish-fists",
+		"image":"./images/fish-fists/banner.png",
+		"body":"Our Ludum Dare Jam 48 game Fish Fists is now downloadable on Apple and Android phones. Click here to download them!",
+		"date":"6/22/21"
+	},
+	{
+		"id":"24",
+		"title":"Decode the Code v3.0 Update",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/spring-time-icon.png",
+		"body":"This update starts year 3 of Decode the Code off with a bang with the Spring Time Pack. Get it now till July 1st!",
+		"date":"5/5/21"
+	},
+	{
+		"id":"23",
+		"title":"Decode the Code v2.8 Update",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/valentine-icon.png",
+		"body":"Decode the Code v2.8 included the brand new Valentine's Pack out for a limited time until April 1st. Download the game here and get it for yourself before it is gone!",
+		"date":"2/1/21"
+	},
+	{
+		"id":"22",
+		"title":"Jail Run v2.4 Released",
+		"catagory":"jail-run",
+		"image":"./images/jail-run/jr-icon.png",
+		"body":"The newest version of Jail Run has been released with many fixes to bugs. Read the full details by clicking here.",
+		"date":"11/28/20"
+	},
+	{
+		"id":"21",
+		"title":"Decode the Code v2.7 Update",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/christmas-icon.png",
+		"body":"With a new version of Decode the Code comes a new special pack out for a limited time. This month's pack is the Festive Pack which will be out till January 1st.",
+		"date":"12/7/20"
+	},
+	{
+		"id":"20",
+		"title":"Space Waste Now On Mobile",
+		"catagory":"space-waste",
+		"image":"./images/space-waste/sw-icon.png",
+		"body":"Space Waste is now available on the iOS and Google Play stores! Click here or on the picture to the right to download it now.",
+		"date":"10/28/20"
+	},
+	{
 		"id":"19",
 		"title":"Protect the Piggy v2.4.3 is out!",
 		"catagory":"protect-the-piggy",
