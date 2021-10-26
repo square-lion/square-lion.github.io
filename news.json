@@ -1,5 +1,21 @@
 [
 	{
+		"id":"30",
+		"title":"Fish Fists v1.1",
+		"catagory":"fish-fists",
+		"image":"./images/fish-fists/leaderboard.png",
+		"body":"Fish Fists v1.1 is out and includes an online leaderboard for sharing your highscores with players all around the world. Download it now!",
+		"date":"8/12/21"
+	},
+	{
+		"id":"29",
+		"title":"PACK OF THE WEEK- Diamonds",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/potw/diamonds.png",
+		"body":"This weeks Pack of the Week is the Diamonds Pack. Released in version 1.6 on July 22, 2019, it was part of the first major wave of pack additions after Decode the Code's release. The pack includes 6 diamonds in the game's signature colors.",
+		"date":"8/6/21"
+	},
+	{
 		"id":"28",
 		"title":"Fruit Conference Wiffle Ball",
 		"catagory":"fruit-conference-wiffle-ball",
