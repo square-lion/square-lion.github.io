@@ -1,11 +1,19 @@
 [
 	{
+		"id":"12",
+		"title":"Decode the Code 1 Year Update",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/2-year.png",
+		"body":"Happy Birthday Jail Run! I can't believe it has been 2 years since the game came out, but it is. Thank you to everyone who plays that game.",
+		"date":"4/4/20"
+	},
+	{
 		"id":"11",
 		"title":"Jail Run Is 2 Years Old!",
 		"catagory":"jail-run",
 		"image":"./images/jail-run/2-year.png",
-		"body":"Happy Birthday Jail Run! I can't believe it has been 2 years since the game came out, but it is. Thank you to everyone who plays that game.",
-		"date":"4/4/20"
+		"body": "Decode the Code v2.3 is here and with it comes the 1 Year Pack.\nAlso included in this update is Special Shop. This shop lets you buy any special pack that came out within the last year for the discounted price of 10 coins. Learn more about the update here",
+		"date":"4/5/20"
 	},
 	{
 		"id":"10",
