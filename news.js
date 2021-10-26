@@ -53,7 +53,7 @@ function appendData(data) {
             video.title = "YouTube video player";
             video.frameborder = "0";
             video.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-
+            video.setAttribute('allowFullScreen', '')
 
             article.append(video, title, body, date);
         }

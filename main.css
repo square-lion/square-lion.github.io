@@ -2,7 +2,6 @@ nav{
   background-color: black;
 }
 
-
 body {
   background-image: url(images/background.png);
   background-size: 150px 154px;
@@ -32,7 +31,6 @@ footer{
   margin-top: 20px;
   margin-right: 15px;
 }
-
 #footer-text{
   padding-top: 25px
 }
@@ -44,7 +42,6 @@ footer{
   padding: 0px;
 
 }
-
 #rcorners2 {
   border-radius: 15px;
   background-position: left top;
@@ -58,11 +55,9 @@ footer{
   margin-right: 10px;
   margin-bottom: 0px;
 }
-
 #menu-all {
   display: inline-block;
 } 
-
 #menu-box{
   margin-top: 40px;
   margin-bottom: 30px;
@@ -102,6 +97,15 @@ footer{
   background-position: left top;
   background-repeat: repeat;
   padding: 0px;
+}
+#news-video{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
+  title: "YouTube video player";
+  frameborder: 0;
 }
 #news-header{
   margin: 0px;
