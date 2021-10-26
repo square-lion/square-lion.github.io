@@ -1,5 +1,61 @@
 [
 	{
+		"id":"19",
+		"title":"Protect the Piggy v2.4.3 is out!",
+		"catagory":"protect-the-piggy",
+		"image":"./images/protect-the-piggy/ptp-icon.png",
+		"body":"A new version of Protect the Piggy has been uploaded to the App Store and Google Play Store. Click here to read more about what it includes.",
+		"date":"11/24/20"
+	},
+	{
+		"id":"18",
+		"title":"Decode the Code v2.4 is out",
+		"catagory":"decode-the-code",
+		"video":"https://www.youtube.com/embed/PYMp1_F8Iso",
+		"body":"v2.4 has started year 2 of Decode the Code special packs, and we are starting off with the beach pack.",
+		"date":"6/19/20"
+	},
+	{
+		"id":"17",
+		"title":"Fed-Y Devlog #8",
+		"catagory":"fed-y",
+		"video":"https://www.youtube.com/embed/ASyPJNF6PtA",
+		"body":"In this devlog I take about my new map creator and start designing some of the maps that will go into the final game. Watch the video by clicking the video to the right, or click here to become a tester for Fed-Y yourself.",
+		"date":"5/14/20"
+	},
+	{
+		"id":"16",
+		"title":"A New Tutorial Is Here",
+		"catagory":"youtube-tutorial",
+		"video":"https://www.youtube.com/embed/SAGbj4-HO8k",
+		"body":"Learn how I made the multi-variable bar in my latest Fed-Y tutorial and add it to your projects!",
+		"date":"5/14/20"
+	},
+	{
+		"id":"15",
+		"title":"Version 0.1.2 Is Out For Testing!",
+		"catagory":"fed-y",
+		"image":"./images/fed-y/old-icon.png",
+		"body":"In the May version of the game, new turn-based mechanics are added to add a more strategic approach to the game. Download the build here and give me your feedback!",
+		"date":"5/11/20"
+	},
+	{
+		"id":"14",
+		"title":"Ludum Dare 46 Video Is Here!",
+		"catagory":"to-the-bunker",
+		"video":"https://www.youtube.com/embed/7HzFFB2PWy0",
+		"body":"Watch my journey through Ludum Dare 46, and all the troubles that came with it.",
+		"date":"5/1/20"
+	},
+	{
+		"id":"13",
+		"title":"New Youtube Video Out!",
+		"catagory":"decode-the-code",
+		"video":"https://www.youtube.com/embed/1-H4QzHriw4",
+		"body":"In this video, I go through how I made the Special Shop in the latest version of Decode the Code.",
+		"date":"4/8/20"
+	},
+	{
 		"id":"12",
 		"title":"Decode the Code 1 Year Update",
 		"catagory":"decode-the-code",
