@@ -25,18 +25,18 @@
 	},
 	{
 		"id":"4",
-		"title":"Fish Fists v1.1",
-		"catagory":"Fish Fists",
-		"image":"./images/fish-fists/banner.png",
-		"body":"Fish Fists v1.1 is out and includes an online leaderboard for sharing your highscores with players all around the world. Download it now!",
-		"date":"8/12/21"
+		"title":"Devlog #3 - Huge News!",
+		"catagory":"Fed-Y",
+		"video":"https://www.youtube.com/embed/BPXqrI_9Eyc",
+		"body":"What's the huge news? In the 2020, I am going to be putting Fed-Y on an open beta so that anyone who watches my videos will be able to download it and give their input. If you want to learn more about becoming a tester, click here",
+		"date":""
 	},
 	{
 		"id":"3",
 		"title":"New Fed-Y Devlog",
 		"catagory":"Fed-Y",
 		"video":"https://www.youtube.com/embed/e-hgmmlM5W4",
-		"body":"My newest Fed-Y Devlog is posted. Go check it out or go to the <a href='https://www.squarelion.net/fed-y'>Fed-Y page here</a>",
+		"body":"My newest Fed-Y Devlog is posted. Go check it out or go to the Fed-Y page here",
 		"date":""
 	},
 	{
