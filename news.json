@@ -1,24 +1,24 @@
 [
 	{
 		"id":"7",
-		"title":"Fish Fists v1.1",
-		"catagory":"Fish Fists",
-		"image":"./images/fish-fists/banner.png",
-		"body":"Fish Fists v1.1 is out and includes an online leaderboard for sharing your highscores with players all around the world. Download it now!",
-		"date":"8/12/21"
+		"title":"Fed-Y Testing Finally Out!",
+		"catagory":"fed-y",
+		"image":"./images/fed-y/banner.png",
+		"body":"The first beta test of Fed-Y is here and is available on iOS and Android. If you want to become a test yourself, click here and scroll down to Become A Tester. It explains all you need to do and shares the links needed.",
+		"date":""
 	},
 	{
 		"id":"6",
-		"title":"Fish Fists v1.1",
-		"catagory":"Fish Fists",
-		"image":"./images/fish-fists/banner.png",
-		"body":"Fish Fists v1.1 is out and includes an online leaderboard for sharing your highscores with players all around the world. Download it now!",
-		"date":"8/12/21"
+		"title":"Decode the Code v2.0 is here",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/new-years-box.png",
+		"body":"This is the biggest update to Decode the Code ever! To read all of the details and download the game for yourself click here.",
+		"date":""
 	},
 	{
 		"id":"5",
 		"title":"Jail Run v2.2 is finally out!",
-		"catagory":"Jail Run",
+		"catagory":"jail-run",
 		"image":"./images/jail-run/level-select.png",
 		"body":"My Check out the Jail Run page here for all the detail and the links the download the game on both the iOS and Google Play Store.",
 		"date":""
@@ -26,7 +26,7 @@
 	{
 		"id":"4",
 		"title":"Devlog #3 - Huge News!",
-		"catagory":"Fed-Y",
+		"catagory":"fed-y",
 		"video":"https://www.youtube.com/embed/BPXqrI_9Eyc",
 		"body":"What's the huge news? In the 2020, I am going to be putting Fed-Y on an open beta so that anyone who watches my videos will be able to download it and give their input. If you want to learn more about becoming a tester, click here",
 		"date":""
@@ -34,7 +34,7 @@
 	{
 		"id":"3",
 		"title":"New Fed-Y Devlog",
-		"catagory":"Fed-Y",
+		"catagory":"fed-y",
 		"video":"https://www.youtube.com/embed/e-hgmmlM5W4",
 		"body":"My newest Fed-Y Devlog is posted. Go check it out or go to the Fed-Y page here",
 		"date":""
@@ -42,7 +42,7 @@
 	{
 		"id":"2",
 		"title":"New Tutorial Series",
-		"catagory":"Youtube Tutorial",
+		"catagory":"youtube-tutorial",
 		"video":"https://www.youtube.com/embed/k23OWCV997U",
 		"body":"The first video of a brand new tutorial series about building a choice drive game has been released. Go watch the youtube video now and learn for yourself!",
 		"date":""
@@ -50,7 +50,7 @@
 	{
 		"id":"1",
 		"title":"Decode the Code v1.7 Is Out",
-		"catagory":"Decode the Code",
+		"catagory":"decode-the-code",
 		"image":"./images/decode-the-code/banner.png",
 		"body":"v1.7 is finally out for Decode the Code! Click here to read the full update notes and see everything that is new.",
 		"date":""
@@ -58,7 +58,7 @@
 	{
 		"id":"0",
 		"title":"Decode the Code v1.6 Is Out!",
-		"catagory":"Decode the Code",
+		"catagory":"decode-the-code",
 		"image":"./images/decode-the-code/banner.png",
 		"body":"v1.6 is finally out for Decode the Code! Click here to read the full update notes and see everything that is new.",
 		"date":""
