@@ -45,7 +45,17 @@ function appendData(data) {
             article.append(image, title, body, date);
         }
         else if (data[i].hasOwnProperty("video")){
-            article.append(title, body, date);
+            var video = document.createElement("iframe");
+            video.id = "news-image";
+            video.src = data[i].video;
+            video.width = "360";
+            video.height = "175";
+            video.title = "YouTube video player";
+            video.frameborder = "0";
+            video.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+
+
+            article.append(video, title, body, date);
         }
 
         row.append(article)
