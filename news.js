@@ -10,7 +10,7 @@ fetch('news.json')
 });
 
 function appendData(data) {
-    var mainContainer = document.getElementById("menu-box");
+    var mainContainer = document.getElementByClassName("news-container");
 
     for (var i = 0; i < data.length; i++) {
         if(i % 3 == 0){
