@@ -203,6 +203,10 @@ nav > ul > li > a > img{
 	flex: 10%;
 	margin: 1%;	
 	background-color: darkgray;
+	border-radius: 50px;
+  	background-position: left top;
+  	background-repeat: repeat;
+  	padding: 0px;
 }
 .news > h4{
   	margin: 0px;
