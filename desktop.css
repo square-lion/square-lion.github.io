@@ -199,6 +199,10 @@ nav > ul > li > a > img{
 }
 
 /*-----------------News-----------------*/
+.news-container{
+	margin-left: 2%;
+	margin-right: 2%;
+}
 .news{
 	flex: 10%;
 	margin: 1%;	
