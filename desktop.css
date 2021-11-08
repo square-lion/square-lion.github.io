@@ -224,7 +224,7 @@ nav > ul > li > a > img{
  	font-family: Verdana;
 }
 .news > small{
-	margin: 0px;
+	margin-bottom: 10px;
 	padding-left: 10px;
   	padding-right: 10px;
   	padding-bottom: 5px;
