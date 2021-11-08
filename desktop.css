@@ -202,12 +202,14 @@ nav > ul > li > a > img{
 .news{
 	flex: 10%;
 	margin: 1%;	
+	background-color: darkgray;
 }
 .news > h4{
   	margin: 0px;
   	padding-left: 10px;
   	padding-right: 10px;
  	padding-top: 5px;
+ 	font-family: Verdana;
 }
 .news > p{
  	margin: 0px;
@@ -215,6 +217,7 @@ nav > ul > li > a > img{
  	padding-right: 10px;
  	padding-top: 5px;
  	color: white;
+ 	font-family: Verdana;
 }
 .news > small{
 	margin: 0px;
@@ -223,6 +226,7 @@ nav > ul > li > a > img{
   	padding-bottom: 5px;
   	color: white;
   	float: bottom;
+  	font-family: Verdana;
 }
 .news > img, .news > iframe{
 	border-top-left-radius: 10px;
