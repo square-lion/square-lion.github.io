@@ -199,3 +199,36 @@ nav > ul > li > a > img{
 }
 
 /*-----------------News-----------------*/
+.news{
+	flex: 10%;
+	margin: 1%;	
+}
+.news > h4{
+  	margin: 0px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+ 	padding-top: 5px;
+}
+.news > p{
+ 	margin: 0px;
+	padding-left: 10px;
+ 	padding-right: 10px;
+ 	padding-top: 5px;
+ 	color: white;
+}
+.news > small{
+	margin: 0px;
+	padding-left: 10px;
+  	padding-right: 10px;
+  	padding-bottom: 5px;
+  	color: white;
+  	float: bottom;
+}
+.news > img, .news > iframe{
+	border-top-left-radius: 10px;
+  	border-top-right-radius: 10px;
+  	background-position: left top;
+  	background-repeat: repeat;
+  	floa: center;
+  	padding: 0px;
+}

@@ -20,33 +20,27 @@ function appendData(data) {
         }
 
         var article = document.createElement("div");
-        article.className = "col-sm";
+        article.className = "news";
         article.id = "news-article";
 
         var title = document.createElement("h4");
-        title.id = "news-header";
         title.textContent = data[i].title;
         data[i].title;
 
         var body = document.createElement("p");
-        body.id = "news-body";
         body.textContent = data[i].body;
 
         var date = document.createElement("small")
-        date.id = "news-footer";
         date.textContent = data[i].date;
 
         if(data[i].hasOwnProperty("image")){
             var image = document.createElement("img");
-            image.className = "img-fluid";
-            image.id = "news-image";
             image.src = data[i].image;
 
             article.append(image, title, body, date);
         }
         else if (data[i].hasOwnProperty("video")){
             var video = document.createElement("iframe");
-            video.id = "news-image";
             video.src = data[i].video;
             video.width = "100%";
             video.height = "55%";
