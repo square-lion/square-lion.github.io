@@ -13,7 +13,7 @@ function appendData(data) {
     var mainContainer = document.getElementById("menu-box");
 
     for (var i = 0; i < data.length; i++) {
-        if(i % 3 == 0){
+        if(i % 4 == 0){
             row = document.createElement("div")
             row.className = "row";
             mainContainer.append(row);
