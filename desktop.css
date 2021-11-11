@@ -250,6 +250,8 @@ nav > ul > li > a > img{
 .info-boxes{
 	display: flex;
 	border-bottom: solid lightgray; 2px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .info-container{
 	margin-left: 30px;
@@ -278,7 +280,7 @@ nav > ul > li > a > img{
 	font-family: Verdana;
 	font-size: 20px;
 }
-.game-text > img{
+.game-text > a > img{
 	width: 30%;
 
 }
