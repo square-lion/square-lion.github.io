@@ -250,8 +250,8 @@ nav > ul > li > a > img{
 .info-boxes{
 	display: flex;
 	border-bottom: solid lightgray; 2px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .info-container{
 	margin-left: 30px;
