@@ -193,9 +193,9 @@ nav > ul > li > a > img{
 .game > a >img{
 	width: 100%;
 	border-radius: 50px;
-  	background-position: left top;
-  	background-repeat: repeat;
-  	padding: 0px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
 }
 
 /*-----------------News-----------------*/
@@ -208,14 +208,14 @@ nav > ul > li > a > img{
 	margin: 1%;	
 	background-color: darkgray;
 	border-radius: 10px;
-  	background-position: left top;
-  	background-repeat: repeat;
-  	padding: 0px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
 }
 .news > h4{
-  	margin: 0px;
-  	padding-left: 10px;
-  	padding-right: 10px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
  	padding-top: 5px;
  	font-family: Verdana;
 }
@@ -230,18 +230,55 @@ nav > ul > li > a > img{
 .news > small{
 	margin-bottom: 10px;
 	padding-left: 10px;
-  	padding-right: 10px;
-  	padding-bottom: 5px;
-  	color: white;
-  	float: bottom;
-  	font-family: Verdana;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  color: white;
+  float: bottom;
+  font-family: Verdana;
 }
 .news > img, .news > iframe{
 	border-top-left-radius: 10px;
-  	border-top-right-radius: 10px;
-  	background-position: left top;
-  	background-repeat: repeat;
-  	floa: center;
-  	padding: 0px;
-  	width: 100%;
+  border-top-right-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+  floa: center;
+  padding: 0px;
+  width: 100%;
+}
+
+/*-----------------Game-Pages-----------------*/
+.info-boxes{
+	display: flex;
+	border-bottom: solid lightgray; 2px;
+}
+.info-container{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.screenshot{
+	flex: 1;
+}
+.screenshot > img{
+	width: 100%;
+	border-radius: 50px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
+	padding: 10px;
+}
+.game-text{
+	flex: 1;
+	padding: 40px;
+}
+.game-text > h4{
+	font-family: Verdana;
+	font-size: 30px;
+}
+.game-text > p{
+	font-family: Verdana;
+	font-size: 20px;
+}
+.game-text > img{
+	width: 30%;
+
 }
