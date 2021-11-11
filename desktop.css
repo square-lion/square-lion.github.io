@@ -280,7 +280,12 @@ nav > ul > li > a > img{
 	font-family: Verdana;
 	font-size: 20px;
 }
-.game-text > a > img{
-	width: 30%;
+.download-buttons{
+	height: 50px;
+	margin: 7.5px;
 
+}
+.icon{
+	height: 35px;
+	margin: 7.5px;
 }
