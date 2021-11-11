@@ -289,3 +289,9 @@ nav > ul > li > a > img{
 	height: 35px;
 	margin: 7.5px;
 }
+
+/*-----------------Privacy-Policy-----------------*/
+.privacy-policy{
+	font-family: Verdana;
+	margin: 50px;
+}
