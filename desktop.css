@@ -83,9 +83,9 @@ nav > ul > li > a > img{
 * {box-sizing:border-box}
 
 .slideshow{
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
-  margin: auto;
+  margin: 0px;
 }
 .mySlides{
   display: none;
