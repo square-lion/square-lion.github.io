@@ -12,11 +12,12 @@ fetch('news.json')
 function appendData(data) {
     var mainContainer = document.getElementsByClassName("news-container")[0];
 
-    for (var i = 0; i < 4; i++) {
-        row = document.createElement("div")
-        row.className = "row";
-        mainContainer.append(row); 
+    row = document.createElement("div")
+    row.className = "row";
+    mainContainer.append(row);
 
+    for (var i = 0; i < 4; i++) {
+    
         var article = document.createElement("div");
         article.className = "news";
         article.id = "news-article";
