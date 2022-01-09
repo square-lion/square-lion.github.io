@@ -119,6 +119,21 @@ nav > ul > li > a > img{
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: Verdana;
+}
+.text > a{
+	background-color: black;
+	margin: 5px;
+	padding: 5px;
+	display:inline-block;
+	color: white;
+	opacity: .75;
+	border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+}
+.text > a:hover{
+	opacity: 1;
 }
 .dot{
   cursor: pointer;
@@ -170,13 +185,22 @@ nav > ul > li > a > img{
 .preview{
 	flex: 20%;
 	margin: 1%;
+	overflow: hidden;
+	border-radius: 50px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 0px;
 }
 .preview > a > img{
 	width: 100%;
-	border-radius: 50px;
-  	background-position: left top;
-  	background-repeat: repeat;
-  	padding: 0px;
+	
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition:all .5s ease;
+  transition: all .5s ease;
+}
+.preview > a:hover > img{
+	transform: scale(1.1);
 }
 
 /*-----------------Games-----------------*/
@@ -241,7 +265,7 @@ nav > ul > li > a > img{
   border-top-right-radius: 10px;
   background-position: left top;
   background-repeat: repeat;
-  floa: center;
+  float: center;
   padding: 0px;
   width: 100%;
 }
