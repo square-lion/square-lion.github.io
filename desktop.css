@@ -43,8 +43,12 @@ footer{
 	font-family: Verdana;
 	font-size: 15px;
 }
+.footer-container > p > small > a:hover{
+	color: #f18533;
+;
+}
 .footer-container > h5 > a:hover{
-	color: lightgray;
+	color: #f18533;
 }
 .footer-container > a > img{
 	margin: 3%;
@@ -68,6 +72,9 @@ nav > ul > li > a{
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
+}
+nav > ul > li > a:hover{
+  background-color: #f18533;
 }
 nav > ul > li > a > p{
 	font-family: Verdana;
@@ -314,6 +321,15 @@ nav > ul > li > a > img{
 	height: 35px;
 	margin: 7.5px;
 }
+
+
+/*-----------------Support-----------------*/
+p{
+	font-family: Verdana;
+	text-align: center;
+	color: white;
+}
+
 
 /*-----------------Privacy-Policy-----------------*/
 .privacy-policy{
