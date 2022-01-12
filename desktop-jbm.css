@@ -1,0 +1,31 @@
+/*General*/
+body{
+	margin: 0px;
+}
+
+/*Navbar*/
+nav > ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+nav > ul > li{
+	float: left;
+}
+nav > ul > li > a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+nav > ul > li > a > p{
+	font-family: Verdana;
+	font-size: 16px;
+}
+nav > ul > li > a > img{
+	width: 150px;
+	height: 50px;
+}
