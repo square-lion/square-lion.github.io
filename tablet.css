@@ -20,7 +20,10 @@ a:visited, a:link, a:active, a:hover{
 	font-size: 50px;
 	font-family: Verdana;
 }
-.hamnav{
+nav{
+	display: none;
+}
+.hamnav-menu{
 	display: none;
 }
 
@@ -59,33 +62,53 @@ footer{
 
 
 /*Navbar*/
-nav > ul{
+.hamnav{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: black;
+	padding: 5px;
+
 }
-nav > ul > li{
-	float: left;
+.hamnav-menu{
+	position:absolute;
+  right: 10px;
+  top: 50px;
+  width:100px;
+  z-index:1;
+  background-color: black;
+  padding: 0;
+  border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
 }
-nav > ul > li > a{
+.hamnav > ul > li{
   display: block;
   color: white;
-  text-align: center;
-  padding: 10px 16px;
   text-decoration: none;
+  border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+
 }
-nav > ul > li > a:hover{
+.hamnav > ul > li:hover{
   background-color: #f18533;
 }
-nav > ul > li > a > p{
+.hamnav > ul > li > a > p{
 	font-family: Verdana;
-	font-size: 16px;
+	font-size: 15px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-nav > ul > li > a > img{
+.navbar-brand > img{
 	width: 150px;
 	height: 50px;
+}
+.navbar-ham > img{
+	width: 50px;
+	float: right;
 }
 
 /*-----------------Home-----------------*/
