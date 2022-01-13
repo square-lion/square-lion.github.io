@@ -19,7 +19,11 @@ function appendData(data) {
     for (var i = 0; i < 4; i++) {
     
         var article = document.createElement("div");
-        article.className = "news";
+        if(i == 0)
+            article.className = "news";
+        else
+            article.className = "news extra";
+        
         article.id = "news-article";
 
         var title = document.createElement("h4");

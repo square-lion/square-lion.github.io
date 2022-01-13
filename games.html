@@ -7,21 +7,32 @@
     <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:480px)">
     <link rel="stylesheet" type="text/css" href="tablet.css" media="screen and (min-width:481px) and (max-width:768px)">
     <link rel="stylesheet" type="text/css" href="desktop.css" media="screen and (min-width:769px)">
-    
+
 </head>
 <body>
 
     <!-- Navbar -->
     <header>
-      <nav>
-        <ul>
-          <li><a class="navbar-brand" href="/"><img src="images/square-lion/header.png"></a></li>
-          <li><a href="/"><p>Home</p></a></li>
-          <li><a href="games"><p>Games</p></a></li>
-          <li><a href="news"><p>News</p></a></li>
-          <li><a href="support"><p>Support</p></a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li><a class="navbar-brand" href="/"><img src="images/square-lion/header.png"></a></li>
+                <li><a href="/"><p>Home</p></a></li>
+                <li><a href="games"><p>Games</p></a></li>
+                <li><a href="news"><p>News</p></a></li>
+                <li><a href="support"><p>Support</p></a></li>
+            </ul>
+        </nav>
+        <div class="hamnav">
+            <a class="navbar-brand" href="/"><img src="images/square-lion/header.png"></a>
+            <a class="navbar-ham"><img src="images/general/hamnav.png" onclick="hamClicked()"/></a>
+
+            <ul class="hamnav-menu">
+                <li><a href="/"><p>Home</p></a></li>
+                <li><a href="games"><p>Games</p></a></li>
+                <li><a href="news"><p>News</p></a></li>
+                <li><a href="support"><p>Support</p></a></li>
+            </ul>
+        </div>
     </header>
     
     <main>
@@ -95,6 +106,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 
 </body>
 </html>
