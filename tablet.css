@@ -312,7 +312,7 @@ footer{
 
 /*-----------------Game-Pages-----------------*/
 .info-boxes{
-	display: flex;
+
 	border-bottom: solid lightgray; 2px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -346,7 +346,7 @@ footer{
 	font-size: 20px;
 }
 .download-buttons{
-	height: 50px;
+	width: 45%;
 	margin: 7.5px;
 
 }
