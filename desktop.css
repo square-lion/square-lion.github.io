@@ -56,6 +56,9 @@ footer{
 .footer-container > a > img{
 	margin: 3%;
 }
+.footer-container > img{
+	height: 75px;
+}
 
 
 /*Navbar*/
