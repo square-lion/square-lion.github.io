@@ -357,7 +357,7 @@ footer{
 
 
 /*-----------------Support-----------------*/
-p{
+.support-text{
 	font-family: Verdana;
 	text-align: center;
 	color: white;
