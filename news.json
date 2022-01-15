@@ -1,5 +1,13 @@
 [
 	{
+		"id":"34",
+		"title":"Holiday Pack Out",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/holiday-pack.png",
+		"body":"The Holiday Pack is out now available and will be until the end of December. Download Decode the Code on iOS and Android and get it before it leaves!",
+		"date":"11/20/21"
+	},
+	{
 		"id":"33",
 		"title":"Frightening Pack Out",
 		"catagory":"decode-the-code",
