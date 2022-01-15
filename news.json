@@ -1,5 +1,13 @@
 [
 	{
+		"id":"39",
+		"title":"New Website Active",
+		"catagory":"square-lion",
+		"image":"./images/square-lion/new-website.png",
+		"body":"Square Lion's new website is now live. This website contains more information about our games, fruit conference wiffle ball, and upcoming projects.",
+		"date":"1/1/22"
+	},
+	{
 		"id":"38",
 		"title":"2022 Pack Out Now",
 		"catagory":"fruit-conference-wiffle-ball",
