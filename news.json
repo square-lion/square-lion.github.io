@@ -1,5 +1,29 @@
 [
 	{
+		"id":"33",
+		"title":"Frightening Pack Out",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/frightening-pack.png",
+		"body":"The Frightening Pack is still available for one more week! Download Decode the Code by clicking the link in the description on Apple and Android.",
+		"date":"10/25/21"
+	},
+	{
+		"id":"32",
+		"title":"Olympus Farms v1.1",
+		"catagory":"olympus-farms",
+		"image":"./images/olympus-farms/ofv1-1.png",
+		"body":"Olympus Farms is a strategy game where you must survive the wrath of the gods for 10 years. Can you do it? Download it now on the iOS Store or Google Play Store.",
+		"date":"8/31/21"
+	},
+	{
+		"id":"31",
+		"title":"To The Bunker v1.1",
+		"catagory":"to-the-bunker",
+		"image":"./images/to-the-bunker/ttb1-1.png",
+		"body":"To The Bunker! V1.1 introduces a best time system for every level. Download the game now and see how fast you can complete them.",
+		"date":"8/18/21"
+	},
+	{
 		"id":"30",
 		"title":"Fish Fists v1.1",
 		"catagory":"fish-fists",
