@@ -1,5 +1,13 @@
 [
 	{
+		"id":"35",
+		"title":"FCWB Game 7",
+		"catagory":"fruit-conference-wiffle-ball",
+		"image":"./images/fruit-conference-wiffle-ball/game-7.png",
+		"body":"Game 7 of Fruit Conference Wiffle Ball is out as the Pearville Pears take on the Glo City Grapes and the Nanner City Bananers.",
+		"date":"12/24/21"
+	},
+	{
 		"id":"34",
 		"title":"Holiday Pack Out",
 		"catagory":"decode-the-code",
