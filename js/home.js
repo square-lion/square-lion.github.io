@@ -62,9 +62,9 @@ function appendData(data) {
     }
 }
 
-
-var slideIndex = 1;
-showSlides(slideIndex);
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 // Next/previous controls
 function plusSlides(n) {
@@ -91,3 +91,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+var slideIndex = 1;
+
+async function waitForASmallTime(){
+    await sleep(2);
+    showSlides(slideIndex);
+}
+
+waitForASmallTime();
