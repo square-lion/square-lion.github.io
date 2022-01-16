@@ -5,23 +5,23 @@
 		"catagory":"square-lion",
 		"image":"./images/square-lion/new-website.png",
 		"body":"Square Lion's new website is now live. This website contains more information about our games, fruit conference wiffle ball, and upcoming projects.",
-		"date":"1/1/22"
+		"date":"1/16/22"
 	},
 	{
 		"id":"38",
-		"title":"2022 Pack Out Now",
+		"title":"FCWB Game 11",
 		"catagory":"fruit-conference-wiffle-ball",
 		"image":"./images/fruit-conference-wiffle-ball/game-11.png",
 		"body":"Game 11 of Fruit Conference Wiffle Ball is out as the Pearville Pears take on the Nanner City Bannaers and the Glo City Grapes.",
-		"date":"1/1/22"
+		"date":"1/7/22"
 	},
 	{
 		"id":"37",
-		"title":"FCWB Game 11",
+		"title":"FCWB Game 9",
 		"catagory":"fruit-conference-wiffle-ball",
 		"image":"./images/fruit-conference-wiffle-ball/game-9.png",
 		"body":"Game 9 of Fruit Conference Wiffle Ball is out as the Glo City Grapes take on the Souralka Limes and the Pearville Pears.",
-		"date":"1/1/22"
+		"date":"1/3/22"
 	},
 	{
 		"id":"36",
