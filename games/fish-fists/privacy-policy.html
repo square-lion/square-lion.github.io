@@ -4,20 +4,33 @@
   <title>Privacy Policy x Fish Fists x Square Lion</title>
   <link rel="shortcut icon" type="image/png" href="../../images/square-lion/logo.png"/>
 
-   <link rel="stylesheet" href="../../desktop.css">
+   <link id="switchable" rel="stylesheet" type="text/css" href="../../css/desktop.css">
 
 </head>
 <body>
+    
+    <!-- Navbar -->
     <header>
-      <nav>
-        <ul>
-          <li><a class="navbar-brand" href="/"><img src="../../images/square-lion/header.png"></a></li>
-          <li><a href="/"><p>Home</p></a></li>
-          <li><a href="../../games"><p>Games</p></a></li>
-          <li><a href="../../news"><p>News</p></a></li>
-          <li><a href="../../support"><p>Support</p></a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li><a class="navbar-brand" href="/"><img src="../../images/square-lion/header.png"></a></li>
+                <li><a href="/"><p>Home</p></a></li>
+                <li><a href="../../games"><p>Games</p></a></li>
+                <li><a href="../../news"><p>News</p></a></li>
+                <li><a href="../../support"><p>Support</p></a></li>
+            </ul>
+        </nav>
+        <div class="hamnav">
+            <a class="navbar-brand" href="/"><img src="../../images/square-lion/header.png"></a>
+            <a class="navbar-ham"><img src="../../images/general/hamnav.png" onclick="hamClicked()"/></a>
+
+            <ul class="hamnav-menu">
+                <li><a href="/"><p>Home</p></a></li>
+                <li><a href="../../games"><p>Games</p></a></li>
+                <li><a href="../../news"><p>News</p></a></li>
+                <li><a href="../../support"><p>Support</p></a></li>
+            </ul>
+        </div>
     </header>
     
     <main>
@@ -97,6 +110,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/main_3.js"></script>
 
 </body>
 </html>

@@ -4,20 +4,33 @@
   <title>Privacy Policy x Protect the Piggy x Square Lion</title>
   <link rel="shortcut icon" type="image/png" href="../../images/square-lion/logo.png"/>
 
-   <link rel="stylesheet" href="../../desktop.css">
+  <link id="switchable" rel="stylesheet" type="text/css" href="../../css/desktop.css">
 
 </head>
 <body>
+    
+    <!-- Navbar -->
     <header>
-      <nav>
-        <ul>
-          <li><a class="navbar-brand" href="/"><img src="../../images/square-lion/header.png"></a></li>
-          <li><a href="/"><p>Home</p></a></li>
-          <li><a href="../../games"><p>Games</p></a></li>
-          <li><a href="../../news"><p>News</p></a></li>
-          <li><a href="../../support"><p>Support</p></a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li><a class="navbar-brand" href="/"><img src="../../images/square-lion/header.png"></a></li>
+                <li><a href="/"><p>Home</p></a></li>
+                <li><a href="../../games"><p>Games</p></a></li>
+                <li><a href="../../news"><p>News</p></a></li>
+                <li><a href="../../support"><p>Support</p></a></li>
+            </ul>
+        </nav>
+        <div class="hamnav">
+            <a class="navbar-brand" href="/"><img src="../../images/square-lion/header.png"></a>
+            <a class="navbar-ham"><img src="../../images/general/hamnav.png" onclick="hamClicked()"/></a>
+
+            <ul class="hamnav-menu">
+                <li><a href="/"><p>Home</p></a></li>
+                <li><a href="../../games"><p>Games</p></a></li>
+                <li><a href="../../news"><p>News</p></a></li>
+                <li><a href="../../support"><p>Support</p></a></li>
+            </ul>
+        </div>
     </header>
     
     <main>
@@ -33,7 +46,7 @@
             For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.<br/>
             The app does use third party services that may collect information used to identify you.<br/>
             Link to privacy policy of third party service providers used by the app<br/><br/>
-
+privacy-policy
             <a href="https://policies.google.com/privacy">Google Play Services</a></li><br/>
             <a href="https://www.google.com/url?q=https%3A%2F%2Funity3d.com%2Flegal%2Fprivacy-policy&sa=D&sntz=1&usg=AFQjCNFMLzJv_SmqcUEB7AhJIXL6TpT-XA">Unity</a></li><br/><br>
 
@@ -97,6 +110,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/main_3.js"></script>
 
 </body>
 </html>
