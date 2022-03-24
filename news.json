@@ -1,5 +1,13 @@
 [
 	{
+		"id":"39",
+		"title":"The Lucky Pack Is Here",
+		"catagory":"decode-the-code",
+		"image":"./images/decode-the-code/lucky-pack.png",
+		"body":"The Lucky Pack is out now. Download Decode the Code today and get it for yourself before it's gone!",
+		"date":"3/24/22"
+	},
+	{
 		"id":"38",
 		"title":"FCWB Game 11",
 		"catagory":"fruit-conference-wiffle-ball",
