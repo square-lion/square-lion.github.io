@@ -1,6 +1,6 @@
 [
 	{
-		"id":"39",
+		"id":"35",
 		"title":"The Lucky Pack Is Here",
 		"catagory":"decode-the-code",
 		"image":"./images/decode-the-code/lucky-pack.png",
@@ -8,23 +8,7 @@
 		"date":"3/24/22"
 	},
 	{
-		"id":"38",
-		"title":"FCWB Game 11",
-		"catagory":"fruit-conference-wiffle-ball",
-		"image":"./images/fruit-conference-wiffle-ball/game-11.png",
-		"body":"Game 11 of Fruit Conference Wiffle Ball is out as the Pearville Pears take on the Nanner City Bannaers and the Glo City Grapes.",
-		"date":"1/7/22"
-	},
-	{
-		"id":"37",
-		"title":"FCWB Game 9",
-		"catagory":"fruit-conference-wiffle-ball",
-		"image":"./images/fruit-conference-wiffle-ball/game-9.png",
-		"body":"Game 9 of Fruit Conference Wiffle Ball is out as the Glo City Grapes take on the Souralka Limes and the Pearville Pears.",
-		"date":"1/3/22"
-	},
-	{
-		"id":"36",
+		"id":"34",
 		"title":"2022 Pack Out Now",
 		"catagory":"decode-the-code",
 		"image":"./images/decode-the-code/2022-pack.png",
@@ -32,15 +16,7 @@
 		"date":"1/1/22"
 	},
 	{
-		"id":"35",
-		"title":"FCWB Game 7",
-		"catagory":"fruit-conference-wiffle-ball",
-		"image":"./images/fruit-conference-wiffle-ball/game-7.png",
-		"body":"Game 7 of Fruit Conference Wiffle Ball is out as the Pearville Pears take on the Glo City Grapes and the Nanner City Bananers.",
-		"date":"12/24/21"
-	},
-	{
-		"id":"34",
+		"id":"33",
 		"title":"Holiday Pack Out",
 		"catagory":"decode-the-code",
 		"image":"./images/decode-the-code/holiday-pack.png",
@@ -48,7 +24,7 @@
 		"date":"11/20/21"
 	},
 	{
-		"id":"33",
+		"id":"32",
 		"title":"Frightening Pack Out",
 		"catagory":"decode-the-code",
 		"image":"./images/decode-the-code/frightening-pack.png",
@@ -56,7 +32,7 @@
 		"date":"10/25/21"
 	},
 	{
-		"id":"32",
+		"id":"31",
 		"title":"Olympus Farms v1.1",
 		"catagory":"olympus-farms",
 		"image":"./images/olympus-farms/ofv1-1.png",
@@ -64,7 +40,7 @@
 		"date":"8/31/21"
 	},
 	{
-		"id":"31",
+		"id":"30",
 		"title":"To The Bunker v1.1",
 		"catagory":"to-the-bunker",
 		"image":"./images/to-the-bunker/ttb1-1.png",
@@ -72,7 +48,7 @@
 		"date":"8/18/21"
 	},
 	{
-		"id":"30",
+		"id":"29",
 		"title":"Fish Fists v1.1",
 		"catagory":"fish-fists",
 		"image":"./images/fish-fists/leaderboard.png",
@@ -80,20 +56,12 @@
 		"date":"8/12/21"
 	},
 	{
-		"id":"29",
+		"id":"28",
 		"title":"PACK OF THE WEEK- Diamonds",
 		"catagory":"decode-the-code",
 		"image":"./images/decode-the-code/potw/diamonds.png",
 		"body":"This weeks Pack of the Week is the Diamonds Pack. Released in version 1.6 on July 22, 2019, it was part of the first major wave of pack additions after Decode the Code's release. The pack includes 6 diamonds in the game's signature colors.",
 		"date":"8/6/21"
-	},
-	{
-		"id":"28",
-		"title":"Fruit Conference Wiffle Ball",
-		"catagory":"fruit-conference-wiffle-ball",
-		"image":"./images/fruit-conference-wiffle-ball/game-1.png",
-		"body":"Square Lion and RZFL Sports have teamed up to create the Fruit Conference Wiffle Ball League. The first edited game has been posted on the Fruit Conference Wiffle Ball YouTube channel. Go watch it now!",
-		"date":"7/30/21"
 	},
 	{
 		"id":"27",
