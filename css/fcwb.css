@@ -2,6 +2,42 @@ body{
 font-family: Verdana;
 }
 
+.mini-game{
+  border: 1px dashed black;
+}
+.mini-game > tbody > tr > td > img{
+  width: 20px;
+  vertical-align: middle;
+}
+.standings{
+  text-align: center;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.stat-leaders:after{
+  content: “”;
+  display: table;
+  clear: both;
+    
+}
+.stat-leaders > div{
+  
+  float: left;
+  width: 25%;
+}
+.stat-leaders > div >table{
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 90%;
+  margin-bottom: 10px;
+}
+.stat-leaders > div > table > thead{
+  background-color: lightblue;
+}
+.stat-leaders > div > table > tbody > tr > td{
+  
+}
+
 
 .score-table{
   margin-left: auto;
@@ -112,4 +148,27 @@ font-family: Verdana;
 }
 .stat-catagory > h2{
   margin-bottom: 5px;
+}
+
+
+.team-info{
+  display: flex;
+}
+.team-info > div{
+  margin-left: 5px;
+}
+.team-info > div > h1{
+  margin-top: 0px;
+}
+.team-info > div > p{
+  margin: 0px;
+}
+.left-team-logo{
+  flex: left;
+  height: 100px;
+}
+
+.left-player{
+  flex:left;
+  height: 150px;
 }
