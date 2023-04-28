@@ -35,10 +35,19 @@ nav > ul > li > a > img{
 	height: 50px;
 }
 
+iframe {
+  margin:auto;
+  display:block;
+  margin-top: 20px;
+}
+
 .mini-game{
   border: 1px dashed black;
   display: inline-block;
 }
+.mini-game > tbody > tr > td{
+  text-align: right;
+} 
 .mini-game > tbody > tr > td > img{
   width: 20px;
   vertical-align: middle;
