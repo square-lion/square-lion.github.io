@@ -16,7 +16,7 @@ function appendData(data) {
     row.className = "row";
     mainContainer.append(row);
 
-    for (var i = 0; i < 4; i++) {
+    for (var i = 0; i < 4 && i < data.length; i++) {
     
         var article = document.createElement("div");
         if(i == 0)
