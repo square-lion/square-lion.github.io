@@ -12,29 +12,29 @@
 }
 
 /* Home Displays */
-.home-display > div > h2 {
-    font-family: Jomhuria;
-    font-size: 60px;
-    margin-bottom: -25px;
+.home-display {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+    .home-display > div > h2 {
+        font-family: Jomhuria;
+        font-size: 60px;
+        margin-bottom: -25px;
+    }
 
 /* Home Games */
-.home-games {
-    padding-top: 24px;
+.home-games > div > div {
+    padding: 8px;
 }
-    .home-games > div > div {
-        padding: 8px;
+    .home-games > div > div > a > img {
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition:all .5s ease;
+        transition: all .5s ease;
     }
-        .home-games > div > div > a > img {
-            -webkit-transition: all .5s ease;
-            -moz-transition: all .5s ease;
-            -ms-transition:all .5s ease;
-            transition: all .5s ease;
-        }
-        .home-games > div > div > a:hover > img {
-            transform: scale(1.1);
-        }
-
+    .home-games > div > div > a:hover > img {
+        transform: scale(1.1);
+    }
 
 /* Footer */
 .fa-brands {
