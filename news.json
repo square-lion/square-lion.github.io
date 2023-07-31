@@ -1,9 +1,17 @@
 [
 	{
+		"id":"36",
+		"title":"Square Lion x Grand Violet",
+		"catagory":"square-lion",
+		"image":"/images/square-lion/square-lion-x-grand-violet.png",
+		"body":"Square Lion and Grand Violet will be working together to updates all 7 mobile games on both Android and iOS. We look to future collaborations!!",
+		"date":"7/30/23"
+	},
+	{
 		"id":"35",
 		"title":"The Lucky Pack Is Here",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/lucky-pack.png",
+		"image":"/images/decode-the-code/lucky-pack.png",
 		"body":"The Lucky Pack is out now. Download Decode the Code today and get it for yourself before it's gone!",
 		"date":"3/24/22"
 	},
@@ -11,7 +19,7 @@
 		"id":"34",
 		"title":"2022 Pack Out Now",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/2022-pack.png",
+		"image":"/images/decode-the-code/2022-pack.png",
 		"body":"2022 is here and so is the 2022 Pack in Decode the Code until February 28th. Download it now on the Google Play Store and App Store now!",
 		"date":"1/1/22"
 	},
@@ -19,7 +27,7 @@
 		"id":"33",
 		"title":"Holiday Pack Out",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/holiday-pack.png",
+		"image":"/images/decode-the-code/holiday-pack.png",
 		"body":"The Holiday Pack is out now available and will be until the end of December. Download Decode the Code on iOS and Android and get it before it leaves!",
 		"date":"11/20/21"
 	},
@@ -27,7 +35,7 @@
 		"id":"32",
 		"title":"Frightening Pack Out",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/frightening-pack.png",
+		"image":"/images/decode-the-code/frightening-pack.png",
 		"body":"The Frightening Pack is still available for one more week! Download Decode the Code by clicking the link in the description on Apple and Android.",
 		"date":"10/25/21"
 	},
@@ -35,7 +43,7 @@
 		"id":"31",
 		"title":"Olympus Farms v1.1",
 		"catagory":"olympus-farms",
-		"image":"./images/olympus-farms/ofv1-1.png",
+		"image":"/images/olympus-farms/ofv1-1.png",
 		"body":"Olympus Farms is a strategy game where you must survive the wrath of the gods for 10 years. Can you do it? Download it now on the iOS Store or Google Play Store.",
 		"date":"8/31/21"
 	},
@@ -43,7 +51,7 @@
 		"id":"30",
 		"title":"To The Bunker v1.1",
 		"catagory":"to-the-bunker",
-		"image":"./images/to-the-bunker/ttb1-1.png",
+		"image":"/images/to-the-bunker/ttb1-1.png",
 		"body":"To The Bunker! V1.1 introduces a best time system for every level. Download the game now and see how fast you can complete them.",
 		"date":"8/18/21"
 	},
@@ -51,7 +59,7 @@
 		"id":"29",
 		"title":"Fish Fists v1.1",
 		"catagory":"fish-fists",
-		"image":"./images/fish-fists/leaderboard.png",
+		"image":"/images/fish-fists/leaderboard.png",
 		"body":"Fish Fists v1.1 is out and includes an online leaderboard for sharing your highscores with players all around the world. Download it now!",
 		"date":"8/12/21"
 	},
@@ -59,7 +67,7 @@
 		"id":"28",
 		"title":"PACK OF THE WEEK- Diamonds",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/potw/diamonds.png",
+		"image":"/images/decode-the-code/potw/diamonds.png",
 		"body":"This weeks Pack of the Week is the Diamonds Pack. Released in version 1.6 on July 22, 2019, it was part of the first major wave of pack additions after Decode the Code's release. The pack includes 6 diamonds in the game's signature colors.",
 		"date":"8/6/21"
 	},
@@ -67,7 +75,7 @@
 		"id":"27",
 		"title":"PACK OF THE WEEK - Planets",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/potw/planets.png",
+		"image":"/images/decode-the-code/potw/planets.png",
 		"body":"The first ever pack of the week is the first super pack to be added to Decode the Code. The Planets Pack was the only super pack at the game’s release on April 17th, 2019 and included Mercury, Venus, Earth, Mars, Jupiter, and Uranus.",
 		"date":"7/30/21"
 	},
@@ -75,7 +83,7 @@
 		"id":"26",
 		"title":"Decode the Code v3.1 Update",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/tropical-icon.png",
+		"image":"/images/decode-the-code/tropical-icon.png",
 		"body":"Enjoy summer with the new Tropical Pack out until August 31st.",
 		"date":"7/1/21"
 	},
@@ -83,7 +91,7 @@
 		"id":"25",
 		"title":"Fish Fists Is Now Available On Mobile!",
 		"catagory":"fish-fists",
-		"image":"./images/fish-fists/banner.png",
+		"image":"/images/fish-fists/banner.png",
 		"body":"Our Ludum Dare Jam 48 game Fish Fists is now downloadable on Apple and Android phones. Click here to download them!",
 		"date":"6/22/21"
 	},
@@ -91,7 +99,7 @@
 		"id":"24",
 		"title":"Decode the Code v3.0 Update",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/spring-time-icon.png",
+		"image":"/images/decode-the-code/spring-time-icon.png",
 		"body":"This update starts year 3 of Decode the Code off with a bang with the Spring Time Pack. Get it now till July 1st!",
 		"date":"5/5/21"
 	},
@@ -99,7 +107,7 @@
 		"id":"23",
 		"title":"Decode the Code v2.8 Update",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/valentine-icon.png",
+		"image":"/images/decode-the-code/valentine-icon.png",
 		"body":"Decode the Code v2.8 included the brand new Valentine's Pack out for a limited time until April 1st. Download the game here and get it for yourself before it is gone!",
 		"date":"2/1/21"
 	},
@@ -107,7 +115,7 @@
 		"id":"22",
 		"title":"Jail Run v2.4 Released",
 		"catagory":"jail-run",
-		"image":"./images/jail-run/jr-icon.png",
+		"image":"/images/jail-run/jr-icon.png",
 		"body":"The newest version of Jail Run has been released with many fixes to bugs. Read the full details by clicking here.",
 		"date":"11/28/20"
 	},
@@ -115,7 +123,7 @@
 		"id":"21",
 		"title":"Decode the Code v2.7 Update",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/christmas-icon.png",
+		"image":"/images/decode-the-code/christmas-icon.png",
 		"body":"With a new version of Decode the Code comes a new special pack out for a limited time. This month's pack is the Festive Pack which will be out till January 1st.",
 		"date":"12/7/20"
 	},
@@ -123,7 +131,7 @@
 		"id":"20",
 		"title":"Space Waste Now On Mobile",
 		"catagory":"space-waste-2020",
-		"image":"./images/space-waste-2020/sw-icon.png",
+		"image":"/images/space-waste-2020/sw-icon.png",
 		"body":"Space Waste is now available on the iOS and Google Play stores! Click here or on the picture to the right to download it now.",
 		"date":"10/28/20"
 	},
@@ -131,7 +139,7 @@
 		"id":"19",
 		"title":"Protect the Piggy v2.4.3 is out!",
 		"catagory":"protect-the-piggy",
-		"image":"./images/protect-the-piggy/ptp-icon.png",
+		"image":"/images/protect-the-piggy/ptp-icon.png",
 		"body":"A new version of Protect the Piggy has been uploaded to the App Store and Google Play Store. Click here to read more about what it includes.",
 		"date":"11/24/20"
 	},
@@ -163,7 +171,7 @@
 		"id":"15",
 		"title":"Version 0.1.2 Is Out For Testing!",
 		"catagory":"fed-y",
-		"image":"./images/fed-y/old-icon.png",
+		"image":"/images/fed-y/old-icon.png",
 		"body":"In the May version of the game, new turn-based mechanics are added to add a more strategic approach to the game. Download the build here and give me your feedback!",
 		"date":"5/11/20"
 	},
@@ -187,7 +195,7 @@
 		"id":"12",
 		"title":"Decode the Code 1 Year Update",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/1-year.png",
+		"image":"/images/decode-the-code/1-year.png",
 		"body":"Happy Birthday Jail Run! I can't believe it has been 2 years since the game came out, but it is. Thank you to everyone who plays that game.",
 		"date":"4/5/20"
 	},
@@ -195,7 +203,7 @@
 		"id":"11",
 		"title":"Jail Run Is 2 Years Old!",
 		"catagory":"jail-run",
-		"image":"./images/jail-run/2-year.png",
+		"image":"/images/jail-run/2-year.png",
 		"body": "Decode the Code v2.3 is here and with it comes the 1 Year Pack.\nAlso included in this update is Special Shop. This shop lets you buy any special pack that came out within the last year for the discounted price of 10 coins. Learn more about the update here",
 		"date":"4/4/20"
 	},
@@ -203,7 +211,7 @@
 		"id":"10",
 		"title":"Decode the Code v2.2 Released",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/march-box.png",
+		"image":"/images/decode-the-code/march-box.png",
 		"body":"The St. Patrick's Day pack is out and will be out until April 1st. Next month will be the one year anniversary of Decode the Code and we have a big update set out for then.",
 		"date":""
 	},
@@ -227,7 +235,7 @@
 		"id":"7",
 		"title":"Fed-Y Testing Finally Out!",
 		"catagory":"fed-y",
-		"image":"./images/fed-y/banner.png",
+		"image":"/images/fed-y/banner.png",
 		"body":"The first beta test of Fed-Y is here and is available on iOS and Android. If you want to become a test yourself, click here and scroll down to Become A Tester. It explains all you need to do and shares the links needed.",
 		"date":""
 	},
@@ -235,7 +243,7 @@
 		"id":"6",
 		"title":"Decode the Code v2.0 is here",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/new-years-box.png",
+		"image":"/images/decode-the-code/new-years-box.png",
 		"body":"This is the biggest update to Decode the Code ever! To read all of the details and download the game for yourself click here.",
 		"date":""
 	},
@@ -243,7 +251,7 @@
 		"id":"5",
 		"title":"Jail Run v2.2 is finally out!",
 		"catagory":"jail-run",
-		"image":"./images/jail-run/level-select.png",
+		"image":"/images/jail-run/level-select.png",
 		"body":"My Check out the Jail Run page here for all the detail and the links the download the game on both the iOS and Google Play Store.",
 		"date":""
 	},
@@ -275,7 +283,7 @@
 		"id":"1",
 		"title":"Decode the Code v1.7 Is Out",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/banner.png",
+		"image":"/images/decode-the-code/banner.png",
 		"body":"v1.7 is finally out for Decode the Code! Click here to read the full update notes and see everything that is new.",
 		"date":""
 	},
@@ -283,7 +291,7 @@
 		"id":"0",
 		"title":"Decode the Code v1.6 Is Out!",
 		"catagory":"decode-the-code",
-		"image":"./images/decode-the-code/banner.png",
+		"image":"/images/decode-the-code/banner.png",
 		"body":"v1.6 is finally out for Decode the Code! Click here to read the full update notes and see everything that is new.",
 		"date":""
 	}
