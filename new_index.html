@@ -12,10 +12,10 @@
     <link rel="stylesheet" type="text/css" href="css/new_desktop.css">
 </head>
 <body>
-	<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+	<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="/">
-			<img src="/images/square-lion/logo.png" alt="Square Lion" width="90" height="30">
+			<img src="/images/square-lion/header.png" alt="Square Lion" width="160" height="40">
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -31,56 +31,44 @@
 		</div>
 	</nav>
 
-	<main>
-		<div>
-			<div class="slideshow">
-			  <div class="mySlides fade">
-			    <img src="images/jail-run/3000x1000.png" style="width:100%">
-			    <div class="text">
-			    	<a href="https://apps.apple.com/us/app/jail-run/id1362561489">
-			    		<img src="images/general/apple.png" style="height:13px"/> App Store 
-			    	</a>
-			    	<a href="https://play.google.com/store/apps/details?id=com.NicholasBuckley.JailRun&hl=en_US&gl=US">
-			    		<img src="images/general/play.png" style="height:13px"/> Google Play
-			    	</a>
-			    </div>
-			  </div>
-
-			  <div class="mySlides fade">
-			    <img src="images/fish-fists/3000x1000.png" style="width:100%">
-			    <div class="text">
-			    	<a href="https://apps.apple.com/us/app/fish-fists/id1573113867">
-			    		<img src="images/general/apple.png" style="height:13px"/> App Store 
-			    	</a>
-			    	<a href="https://play.google.com/store/apps/details?id=com.SquareLion.FishFists&hl=en_US&gl=US">
-			    		<img src="images/general/play.png" style="height:13px"/> Google Play
-			    	</a>
-			    </div>
-			  </div>
-
-			  <div class="mySlides fade">
-			    <img src="images/decode-the-code/3000x1000.png" style="width:100%">
-			    <div class="text">
-			    	<a href="https://apps.apple.com/gw/app/decode-the-code/id1421984663">
-			    		<img src="images/general/apple.png" style="height:13px"/> App Store 
-			    	</a>
-			    	<a href="https://play.google.com/store/apps/details?id=com.BBApps.Mastermind&hl=en_US&gl=US">
-			    		<img src="images/general/play.png" style="height:13px"/> Google Play
-			    	</a>
-			    </div>
-			  </div>
-
-			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-			</div>
-			<br>
-
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span>
-			  <span class="dot" onclick="currentSlide(2)"></span>
-			  <span class="dot" onclick="currentSlide(3)"></span>
-			</div>
-		</div>
+	<div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 		<!-- Games -->
 	    <div class="preview-container">
@@ -103,8 +91,6 @@
         	<h2 class="preview-head">News</h2>  
         	<a href = "news" class="see-all">See All</a>          
       	</div>
-
-	</main>
 
     <!-- Footer -->
     <footer>
