@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Square Lion</title>
+	<link rel="shortcut icon" type="image/png" href="images/square-lion/logo.png"/>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/">
+			<img src="/images/square-lion/logo.png" alt="Square Lion" width="30" height="24">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-link active" aria-current="page" href="/">Home</a>
+				<a class="nav-link" href="/games">Games</a>
+				<a class="nav-link" href="/news">News</a>
+				<a class="nav-link" href="/support">Support</a>
+			</div>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div>
+			<div class="slideshow">
+			  <div class="mySlides fade">
+			    <img src="images/jail-run/3000x1000.png" style="width:100%">
+			    <div class="text">
+			    	<a href="https://apps.apple.com/us/app/jail-run/id1362561489">
+			    		<img src="images/general/apple.png" style="height:13px"/> App Store 
+			    	</a>
+			    	<a href="https://play.google.com/store/apps/details?id=com.NicholasBuckley.JailRun&hl=en_US&gl=US">
+			    		<img src="images/general/play.png" style="height:13px"/> Google Play
+			    	</a>
+			    </div>
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="images/fish-fists/3000x1000.png" style="width:100%">
+			    <div class="text">
+			    	<a href="https://apps.apple.com/us/app/fish-fists/id1573113867">
+			    		<img src="images/general/apple.png" style="height:13px"/> App Store 
+			    	</a>
+			    	<a href="https://play.google.com/store/apps/details?id=com.SquareLion.FishFists&hl=en_US&gl=US">
+			    		<img src="images/general/play.png" style="height:13px"/> Google Play
+			    	</a>
+			    </div>
+			  </div>
+
+			  <div class="mySlides fade">
+			    <img src="images/decode-the-code/3000x1000.png" style="width:100%">
+			    <div class="text">
+			    	<a href="https://apps.apple.com/gw/app/decode-the-code/id1421984663">
+			    		<img src="images/general/apple.png" style="height:13px"/> App Store 
+			    	</a>
+			    	<a href="https://play.google.com/store/apps/details?id=com.BBApps.Mastermind&hl=en_US&gl=US">
+			    		<img src="images/general/play.png" style="height:13px"/> Google Play
+			    	</a>
+			    </div>
+			  </div>
+
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+		</div>
+
+		<!-- Games -->
+	    <div class="preview-container">
+	        <h2 class="preview-head">Games</h2>
+	        <a href = "games" class="see-all">See All</a>          
+	        <div class="row">   
+	            <div class="preview">
+	                <a href = "games/jail-run"><img src="images/jail-run/banner.png"></a>
+	            </div>
+	            <div class="preview extra">
+	            	<a href = "games/space-waste-2020"><img src="images/space-waste-2020/banner.png"></a>
+	            </div>
+	            <div class="preview extra">
+	                <a href = "games/fish-fists"><img src="images/fish-fists/banner.png"></a>
+	            </div>
+	        </div>
+	    </div>
+
+	    <div class = "news-container">
+        	<h2 class="preview-head">News</h2>  
+        	<a href = "news" class="see-all">See All</a>          
+      	</div>
+
+	</main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">        
+            <div class="row"> 
+
+                <div class="footer-container" id = "footer-text">
+                    <h5><a href="games">Games</a></h5>
+                    <h5><a href="news">News</a></h5>
+                    <h5><a href="support">Support</a></h5>
+                </div>
+
+                  <div class="footer-container">
+                    <img src="images/square-lion/header.png">
+                  	<p><smalL>&copy2022 Square Lion LLC</smalL></p>
+                </div>
+
+                <div class="footer-container">
+                    <a href = "https://www.youtube.com/channel/UCSqHz-5bSZKgIhJ4xVqpFUw"><img src="images/socials/youtube.png" width = 50px height = 50px></a>
+                    <a href = "https://www.instagram.com/squarelionofficial/"><img src="images/socials/instagram.png" width = 50px height = 50px></a>
+                    <a href = "https://www.facebook.com/SquareLionOfficial"><img src="images/socials/facebook.png" width = 50px height = 50px></a>
+                    <a href = "https://twitter.com/SqLionOfficial"><img src="images/socials/twitter.png" width = 50px height = 50px></a>
+                    <a href = "https://www.patreon.com/squarelion"><img src="images/socials/patreon.png" width = 50px height = 50px></a>
+                    <p><small><a href = "terms-and-conditions">Terms and Conditions</a>&nbsp|&nbsp <a href = "privacy-policy">Privacy Policy</a></small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
