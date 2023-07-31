@@ -1,18 +1,32 @@
+/* Fonts */
 @font-face {
     font-family: Jomhuria;
     src: url(/fonts/Jomhuria-Regular.ttf);
 }
 
+/* Navbar */
 .nav-link {
     font-family: Jomhuria;
     font-size: 30px;
     letter-spacing: .6px;
 }
 
+/* Home Games */
 .home-game {
     padding: 8px;
 }
+    .home-game > a > img {
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition:all .5s ease;
+        transition: all .5s ease;
+    }
+    .home-game > a:hover > img {
+        transform: scale(1.1);
+    }
 
+
+/* Footer */
 .fa-brands {
     font-size: 30px;
 }
