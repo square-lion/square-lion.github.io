@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Jomhuria;
+    src: url(/fonts/Jomhuria-Regular.ttf);
+}
+
+.nav-link {
+    font-family: Jomhuria;
+}
