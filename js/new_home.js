@@ -1,5 +1,3 @@
-var row = $("#news-row");
-
 fetch('/news.json')
     .then(function (response) {
         return response.json();
