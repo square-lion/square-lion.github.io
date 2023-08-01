@@ -1,24 +1,4 @@
-/* Fonts */
-@font-face {
-    font-family: Jomhuria;
-    src: url(/fonts/Jomhuria-Regular.ttf);
-}
-
-body{
-	margin: 0px;
-  	background-image: url('/images/BackgroundTile.png');
-  	background-repeat: repeat;
- 	 background-color: white;
-}
-
-/* Navbar */
-.nav-link {
-    font-family: Jomhuria;
-    font-size: 30px;
-    letter-spacing: .6px;
-}
-
-/* Home Displays */
+/* Displays */
 .home-display {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -42,11 +22,3 @@ body{
     .home-games > div > div > a:hover > img {
         transform: scale(1.1);
     }
-
-/* Footer */
-.fa-brands {
-    font-size: 30px;
-}
-.footer-logo {
-    width: 30px;
-}

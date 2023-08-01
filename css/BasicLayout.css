@@ -1,0 +1,26 @@
+/* Fonts */
+@font-face {
+    font-family: Jomhuria;
+    src: url(/fonts/Jomhuria-Regular.ttf);
+}
+
+body{
+  	background-image: url('/images/general/BackgroundTile.png');
+  	background-repeat: repeat;
+ 	 background-color: white;
+}
+
+/* Navbar */
+.nav-link {
+    font-family: Jomhuria;
+    font-size: 30px;
+    letter-spacing: .6px;
+}
+
+/* Footer */
+.fa-brands {
+    font-size: 30px;
+}
+.footer-logo {
+    width: 30px;
+}

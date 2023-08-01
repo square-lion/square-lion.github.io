@@ -1,114 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Games x Square Lion</title>
-    <link rel="shortcut icon" type="image/png" href="images/square-lion/logo.png"/>
+	<title>Games x Square Lion</title>
+	<link rel="shortcut icon" type="image/png" href="images/square-lion/logo.png"/>
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width:768px)">
-    <link rel="stylesheet" type="text/css" href="css/desktop.css" media="screen and (min-width:769px)">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/BasicLayout.css">
 
+    <script src="https://kit.fontawesome.com/21bd5aad55.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/BasicLayout.js"></script>
 </head>
 <body>
+    <h1>Games</h1>
 
-    <!-- Navbar -->
-    <header>
-        <nav>
-            <ul>
-                <li><a class="navbar-brand" href="/"><img src="images/square-lion/header.png"></a></li>
-                <li><a href="/"><p>Home</p></a></li>
-                <li><a href="games"><p>Games</p></a></li>
-                <li><a href="news"><p>News</p></a></li>
-                <li><a href="support"><p>Support</p></a></li>
-            </ul>
-        </nav>
-        <div class="hamnav">
-            <a class="navbar-brand" href="/"><img src="images/square-lion/header.png"></a>
-            <a class="navbar-ham"><img src="images/general/hamnav.png" onclick="hamClicked()"/></a>
-
-            <ul class="hamnav-menu">
-                <li><a href="/"><p>Home</p></a></li>
-                <li><a href="games"><p>Games</p></a></li>
-                <li><a href="news"><p>News</p></a></li>
-                <li><a href="support"><p>Support</p></a></li>
-            </ul>
-        </div>
-    </header>
-    
-    <main>
-        <h1 class="page-header">Games</h1>
-
-        <!-- Games -->
-        <div class="preview-container">   
-
-            <div class="row">   
-                <div class="preview">
-                    <a href = "games/jail-run"><img src="images/jail-run/banner.png"></a>
-                </div>
-                <div class="preview">
-                  <a href = "games/space-waste-2020"><img src="images/space-waste-2020/banner.png"></a>
-                </div>
-                <div class="preview">
-                  <a href = "games/fish-fists"><img src="images/fish-fists/banner.png"></a>
-                </div>
+    <!-- Games -->
+    <div class="container">   
+        <div class="row">   
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "/games/jail-run"><img class="rounded img-fluid" src="/images/jail-run/banner.png"></a>
             </div>
-
-            <div class="row">   
-                <div class="preview">
-                    <a href = "games/decode-the-code"><img src="images/decode-the-code/banner.png"></a>
-                </div>
-                <div class="preview">
-                  <a href = "games/olympus-farms"><img src="images/olympus-farms/banner.png"></a>
-                </div>
-                <div class="preview">
-                  <a href = "games/protect-the-piggy"><img src="images/protect-the-piggy/banner.png"></a>
-                </div>
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "/games/space-waste-2020"><img class="rounded img-fluid" src="/images/space-waste-2020/banner.png"></a>
             </div>
-
-            <div class="row">   
-                <div class="preview">
-                    <a href = "games/to-the-bunker"><img src="images/to-the-bunker/banner.png"></a>
-                </div>
-                <div class="preview">
-                  <a href = "games/the-last-calculus-wizard"><img src="images/the-last-calculus-wizard/banner.png"></a>
-                </div>
-                <div class="preview">
-                  <a href = "games/investi-grape"><img src="images/investi-grape/banner.png"></a>
-                </div>
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "/games/fish-fists"><img class="rounded img-fluid" src="/images/fish-fists/banner.png"></a>
             </div>
         </div>
-    </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">        
-            <div class="row"> 
-
-                <div class="footer-container" id = "footer-text">
-                    <h5><a href="games">Games</a></h5>
-                    <h5><a href="news">News</a></h5>
-                    <h5><a href="support">Support</a></h5>
-                </div>
-
-                  <div class="footer-container">
-                    <img src="images/square-lion/header.png" class="img-fluid" height = 100px vspace = 20px>
-                    <p><smalL>&copy2022 Square Lion LLC</smalL></p>
-                </div>
-
-                <div class="footer-container">
-                    <a href = "https://www.youtube.com/channel/UCSqHz-5bSZKgIhJ4xVqpFUw"><img src="images/socials/youtube.png" width = 50px height = 50px></a>
-                    <a href = "https://www.instagram.com/squarelionofficial/"><img src="images/socials/instagram.png" width = 50px height = 50px></a>
-                    <a href = "https://www.facebook.com/SquareLionOfficial"><img src="images/socials/facebook.png" width = 50px height = 50px></a>
-                    <a href = "https://twitter.com/SqLionOfficial"><img src="images/socials/twitter.png" width = 50px height = 50px></a>
-                    <a href = "https://www.patreon.com/squarelion"><img src="images/socials/patreon.png" width = 50px height = 50px></a>
-                    <p><small><a href = "terms-and-conditions">Terms and Conditions</a>&nbsp|&nbsp <a href = "privacy-policy">Privacy Policy</a></small></p>
-                </div>
+        <div class="row">   
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "games/decode-the-code"><img class="rounded img-fluid" src="images/decode-the-code/banner.png"></a>
+            </div>
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "games/olympus-farms"><img class="rounded img-fluid" src="images/olympus-farms/banner.png"></a>
+            </div>
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "games/protect-the-piggy"><img class="rounded img-fluid" src="images/protect-the-piggy/banner.png"></a>
             </div>
         </div>
-    </footer>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/main.js"></script>
-
+        <div class="row">   
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "games/to-the-bunker"><img class="rounded img-fluid" src="images/to-the-bunker/banner.png"></a>
+            </div>
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "games/the-last-calculus-wizard"><img class="rounded img-fluid" src="images/the-last-calculus-wizard/banner.png"></a>
+            </div>
+            <div class="col-lg-4 col-md-2 col-sm-1">
+                <a href = "games/investi-grape"><img class="rounded img-fluid" src="images/investi-grape/banner.png"></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
