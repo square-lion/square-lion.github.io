@@ -17,6 +17,20 @@ body{
     letter-spacing: .6px;
 }
 
+/* Games */
+.game-preview {
+    padding: 8px;
+}
+    .game-preview > a > img {
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition:all .5s ease;
+        transition: all .5s ease;
+    }
+    .game-preview > a:hover > img {
+        transform: scale(1.1);
+    }
+
 /* Footer */
 .fa-brands {
     font-size: 30px;
