@@ -4,6 +4,13 @@
     src: url(/fonts/Jomhuria-Regular.ttf);
 }
 
+body{
+	margin: 0px;
+  	background-image: url('/images/BackgroundTile.png');
+  	background-repeat: repeat;
+ 	 background-color: white;
+}
+
 /* Navbar */
 .nav-link {
     font-family: Jomhuria;
