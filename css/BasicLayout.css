@@ -10,6 +10,13 @@ body{
  	 background-color: white;
 }
 
+h1{
+    font-family: Jomhuria;
+    font-size: 80px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
 /* Navbar */
 .nav-link {
     font-family: Jomhuria;
