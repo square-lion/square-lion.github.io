@@ -23,6 +23,9 @@ h1{
     font-size: 30px;
     letter-spacing: .6px;
 }
+    .nav-link:hover {
+        color: orangered;
+    }
 
 /* Games */
 .game-preview {
