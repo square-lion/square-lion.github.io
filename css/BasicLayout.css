@@ -1,8 +1,38 @@
 /* Fonts */
 @font-face {
+    font-family: Data-Control;
+    src: url(/fonts/data-latin.ttf);
+}
+@font-face {
+    font-family: DTM;
+    src: url(/fonts/DTM-Mono.otf);
+}
+@font-face {
+    font-family: Eight-Bit-Maddness;
+    src: url(/fonts/Eight-Bit-Madness.ttf);
+}
+@font-face {
+    font-family: F25_Executive;
+    src: url(/fonts/F25_Executive.otf);
+}
+@font-face {
     font-family: Jomhuria;
     src: url(/fonts/Jomhuria-Regular.ttf);
 }
+@font-face {
+    font-family: LemonMilk;
+    src: url(../fonts/LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: Mermaid;
+    src: url(/fonts/Mermaid1001.ttf);
+}
+@font-face {
+    font-family: Atarian-System;
+    src: url(../fonts/SF-Atarian-System.ttf);
+}
+
+
 
 body{
   	background-image: url('/images/general/BackgroundTile.png');
