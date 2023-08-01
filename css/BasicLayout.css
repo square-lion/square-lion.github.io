@@ -28,7 +28,7 @@ body{
         transition: all .5s ease;
     }
     .game-preview > a:hover > img {
-        transform: scale(1.1);
+        transform: scale(1.04);
     }
 
 /* Footer */
