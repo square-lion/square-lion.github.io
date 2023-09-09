@@ -22,3 +22,16 @@
     bottom: 0;
     z-index: -1;
   }
+
+body {
+    position: fixed;
+    left: 0;
+    top: 15%;
+    width: 100%;
+}
+
+.inner {
+    max-width: 700px;
+    background-color: white;
+    padding: 20px;
+}
