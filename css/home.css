@@ -32,6 +32,9 @@ body {
 
 .inner {
     max-width: 700px;
-    background-color: white;
+    background-color: #2b0a4c;
     padding: 20px;
 }
+    .inner > p {
+        color: white;
+    }
