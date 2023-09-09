@@ -58,6 +58,16 @@ h1{
         color: orangered;
     }
 
+/* Buttons */
+.btn {
+    font-family: LemonMilk;
+    color: white;
+
+}
+    .btn:hover {
+        background: #a985ff;
+    }
+
 /* Games */
 .game-preview {
     padding: 8px;
