@@ -41,3 +41,8 @@ body {
 .lead {
     margin: 20px;
 }
+
+ul > li > a {
+    color:#a985ff;
+    font-size: 35px;
+}
