@@ -62,7 +62,9 @@ h1{
 .btn {
     font-family: LemonMilk;
     color: white;
-
+    padding: 5px;
+    margin-left: 10px;
+    background: none;
 }
     .btn:hover {
         background: #a985ff;
