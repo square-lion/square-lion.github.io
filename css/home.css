@@ -26,7 +26,7 @@
 body {
     position: fixed;
     left: 0;
-    top: 30%;
+    top: 25%;
     width: 100%;
 }
 
@@ -38,3 +38,6 @@ body {
     .inner > p {
         color: white;
     }
+.lead {
+    margin: 20px;
+}
