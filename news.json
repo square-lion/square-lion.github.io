@@ -1,5 +1,13 @@
 [
 	{
+		"id":"2",
+		"title":"Best of Square Lion",
+		"catagory":"square-lion",
+		"image":"/images/news/best_of_square_lion.jpg",
+		"body":"The Best of Square Lion contains the top music from all Square Lion games. Listen to it now on all major music streaming platforms!",
+		"date":"5/1/25"
+	},
+	{
 		"id":"1",
 		"title":"Square Lion x Grand Violet",
 		"catagory":"square-lion",
