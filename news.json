@@ -1,5 +1,13 @@
 [
 	{
+		"id":"3",
+		"title":"Field Goal Monsters Released",
+		"catagory":"field-goal-monsters",
+		"image":"/images/news/fgm-release.png",
+		"body":"Field Goal Monsters has been released and is available on Apple and Android! Download it today.",
+		"date":"10/16/26"
+	},
+	{
 		"id":"2",
 		"title":"Best of Square Lion",
 		"catagory":"square-lion",
