@@ -33,7 +33,9 @@ github_username:  jekyll
 # theme: square-lion-theme
 plugins:
   - jekyll-feed
+  
 sass:
+  sass_dir: _sass
   style: compressed
 # Exclude from processing.
 # The following items will not be processed, by default.

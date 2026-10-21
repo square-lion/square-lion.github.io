@@ -1,11 +1,31 @@
-- name: Twitter
-  url: https://twitter.com/yourhandle
-  icon: twitter
+- name: YouTube
+  url: https://www.youtube.com/channel/UCSqHz-5bSZKgIhJ4xVqpFUw
+  icon: square-youtube
+
+- name: Instagram
+  url: https://www.instagram.com/squarelionofficial/
+  icon: square-instagram
+
+- name: Facebook
+  url: https://www.facebook.com/SquareLionOfficial
+  icon: square-facebook
+
+- name: X
+  url: https://x.com/SqLionOfficial
+  icon: square-x-twitter
+
+- name: BlueSky
+  url: https://bsky.app/profile/squarelion.bsky.social
+  icon: square-bluesky
 
 - name: GitHub
-  url: https://github.com/yourusername
-  icon: github
+  url: https://github.com/square-lion
+  icon: square-github
+
+- name: Itch
+  url: https://square-lion.itch.io
+  icon: itch-io
 
 - name: LinkedIn
-  url: https://linkedin.com/in/yourprofile
+  url: https://linkedin.com/company/square-lion
   icon: linkedin
