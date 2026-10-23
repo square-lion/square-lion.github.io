@@ -2,6 +2,53 @@
 layout: default
 ---
 
-This is a game.
+<!-- Banner -->
+<img src="{{ page.banner-src | relative_url }}" width=100%/>
+
+<div class="container">
+	<!-- Downloads -->
+	<br>
+	<div class="row justify-content-center">
+		{% if page.ios-link != nil %}
+		<div class="col-lg-2 col-md-4 col-6">
+			<a href="{{ page.ios-link }}"><img class="img-fluid" src="/assets/images/general/apple-store.png"/></a>
+		</div>
+		{% endif %}
+		{% if page.android-link != nil %}
+		<div class="col-lg-2 col-md-4 col-6">
+			<a href="{{ page.android-link }}"><img class="img-fluid" src="/assets/images/general/google-play-store.png"/></a>
+		</div>
+		{% endif %}
+		{% if page.itch-link != nil %}
+		<div class="col-lg-2 col-md-4 col-6">
+			<a href="{{ page.itch-link }}"><img class="img-fluid" src="/assets/images/general/itch-store.png"/></a>
+		</div>
+		{% endif %}
+	</div>
+	<br>
+
+	<!-- Boxes -->
+	{% for box in page.boxes %}
+	<div class="rounded row">
+		<div class="col-lg-6">
+			{% if box.image-side == 0 %}
+			<img class="img-fluid rounded" src = "{{ box.image }}"/>
+			{% else %}
+			<h4>{{ box.title }}</h4>
+			<p> {{ box.body }} </p>
+			{% endif %}
+		</div>
+		<div class="col-lg-6">
+			{% if box.image-side == 1 %}
+			<img class="img-fluid rounded" src = "{{ box.image }}"/>
+			{% else %}
+			<h4>{{ box.title }}</h4>
+			<p> {{ box.body }} </p>
+			{% endif %}
+		</div>
+	</div>
+	<br>
+	{% endfor %}
+</div>
 
 {{ content }}

@@ -23,7 +23,7 @@
     z-index: -1;
   }
 
-body {
+.home-body {
     position: fixed;
     left: 0;
     top: 20%;
@@ -42,7 +42,7 @@ body {
     margin: 20px;
 }
 
-ul > li > a {
-    color:#a985ff;
-    font-size: 35px;
+.home-link {
+    color:#a985ff !important;
+    font-size: 35px !important;
 }

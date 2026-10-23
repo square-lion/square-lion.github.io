@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1 class="page-header"> Mobile Games </h1>
+
+<div class="container">  
+	<div class="row">  
+		{% for game in site.data.games.mobile %} 
+		<div class="col-lg-4 col-md-6 col-sm-12 game-preview">
+		    <a href="{{ game.link }}"><img class="rounded img-fluid" src="{{ game.image }}"></a>
+		</div>
+		{% endfor %}
+	</div> 
+</div>
+
+<h1 class="page-header"> Desktop Games </h1>
+
+<div class="container">  
+	<div class="row">  
+		{% for game in site.data.games.desktop %} 
+		<div class="col-lg-4 col-md-6 col-sm-12 game-preview">
+		    <a href="{{ game.link }}"><img class="rounded img-fluid" src="{{ game.image }}"></a>
+		</div>
+		{% endfor %}
+	</div> 
+</div>

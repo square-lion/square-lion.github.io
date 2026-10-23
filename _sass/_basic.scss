@@ -34,13 +34,13 @@
 
 
 
-body{
+body {
   	background-image: url('/assets/images/general/BackgroundTile.png');
   	background-repeat: repeat;
  	background-color: white;
 }
 
-h1{
+.page-header {
     font-family: Jomhuria;
     font-size: 80px;
     margin-bottom: -10px;
@@ -49,16 +49,16 @@ h1{
 
 /* Buttons */
 .btn {
-    font-family: LemonMilk;
-    font-size: 25px;
-    color: white;
-    padding: 5px;
-    margin-left: 10px;
-    background: none;
-    border: none;
+    font-family: LemonMilk !important;
+    font-size: 25px !important;
+    color: white !important;
+    padding: 5px !important;
+    margin-left: 10px !important;
+    background: none !important;
+    border: none !important;
 }
     .btn:hover {
-        background: #a985ff;
+        background: #a985ff !important;
     }
 
 /* Games */
