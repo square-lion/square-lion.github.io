@@ -1,6 +1,6 @@
 ---
 layout: basic
-title: Square Lion x Support
+title: Support x Square Lion
 permalink: /support
 header: Support
 ---

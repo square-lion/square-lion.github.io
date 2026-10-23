@@ -1,6 +1,6 @@
 ---
 layout: games
-title: Square Lion x Games
+title: Games x Square Lion
 permalink: /games
 header: Games
 ---

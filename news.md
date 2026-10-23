@@ -1,6 +1,6 @@
 ---
 layout: news
-title: Square Lion x News
+title: News x Square Lion
 permalink: /news
 header: News
 ---

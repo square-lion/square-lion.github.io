@@ -34,16 +34,16 @@ layout: default
 			{% if box.image-side == 0 %}
 			<img class="img-fluid rounded" src = "{{ box.image }}"/>
 			{% else %}
-			<h4>{{ box.title }}</h4>
-			<p> {{ box.body }} </p>
+			<h4 class="{{ page.font-class }}">{{ box.title }}</h4>
+			<p>{{ box.body }}</p>
 			{% endif %}
 		</div>
 		<div class="col-lg-6">
 			{% if box.image-side == 1 %}
 			<img class="img-fluid rounded" src = "{{ box.image }}"/>
 			{% else %}
-			<h4>{{ box.title }}</h4>
-			<p> {{ box.body }} </p>
+			<h4 class="{{ page.font-class }}">{{ box.title }}</h4>
+			<p>{{ box.body }}</p>
 			{% endif %}
 		</div>
 	</div>

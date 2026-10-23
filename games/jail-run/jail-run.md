@@ -1,11 +1,12 @@
 ---
 layout: game
-title: Square Lion x Jail Run
+title: Jail Run x Square Lion
 permalink: /games/jail-run
 banner-src: /assets/images/jail-run/3000x1000.png
 ios-link: https://apps.apple.com/au/app/jail-run/id1362561489
 android-link: https://play.google.com/store/apps/details?id=com.NicholasBuckley.JailRun
 itch-link: https://square-lion.itch.io/jail-run
+font-class: font-eight-bit-madness
 boxes:
 - title: Escape The Prison!
   body: Jail Run is a 2D platformer speed-running game about escaping a prison. Scale the levels of the prison by collecting keys and going through doors. Be on the lookout for secret passages and don't get hit by the guards. Make it to the final floor to face the warden and escape the prison!
