@@ -49,6 +49,17 @@ layout: default
 	</div>
 	<br>
 	{% endfor %}
-</div>
 
-{{ content }}
+	<!-- Credits -->
+	<div class="rounded row">
+		<div class="col-lg-6">
+			<h4 class="{{ page.font-class }}">Credits</h4>
+		</div>
+		<div class="col-lg-6">
+			{% for credit in page.credits %}
+			<p>{{ credit }}</p>
+			{% endfor %}
+		</div>
+	</div>
+	<br>
+</div>

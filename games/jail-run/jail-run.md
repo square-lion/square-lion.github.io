@@ -24,4 +24,7 @@ boxes:
   body: Follow Square Lion on social media to get the latest news on Jail Run updates, features, and new game releases.<br/><a href = "https://www.reddit.com/r/jailrun/"><i class="fa-brands fa-reddit"></i></a><a href = "https://www.youtube.com/channel/UCSqHz-5bSZKgIhJ4xVqpFUw"><i class="fa-brands fa-youtube"></i></a><a href = "https://www.facebook.com/SquareLionOfficial"><i class="fa-brands fa-facebook"></i></a><a href = "https://www.instagram.com/squarelionofficial/"><i class="fa-brands fa-instagram"></i></a><a href = "https://twitter.com/SqLionOfficial"><i class="fa-brands fa-twitter"></i></a>
   image-side: 1
   image: /assets/images/jail-run/screenshots/jrsc1.png
+credits:
+- Developed by Square Lion
+- Music and Art by Grand Violet
 ---

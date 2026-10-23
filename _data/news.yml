@@ -4,12 +4,14 @@
   image: /assets/images/news/fgm-release.png
   body: Field Goal Monsters has been released and is available on Apple and Android! Download it today.
   date: 10/16/26
+
 - id: 2
   title: Best of Square Lion
   category: square-lion
   image: /assets/images/news/best_of_square_lion.jpg
   body: The Best of Square Lion contains the top music from all Square Lion games. Listen to it now on all major music streaming platforms!
   date: 5/1/25
+  
 - id: 1
   title: Square Lion x Grand Violet
   category: square-lion
