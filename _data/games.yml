@@ -2,32 +2,32 @@ mobile:
 - image: /assets/images/jail-run/banner.png
   link: /games/jail-run
 - image: /assets/images/protect-the-piggy/banner.png
-  link: /game/protect-the-piggy
+  link: /games/protect-the-piggy
 - image: /assets/images/fish-fists/banner.png
-  link: /game/fish-fists
+  link: /games/fish-fists
 - image: /assets/images/decode-the-code/banner.png
-  link: /game/decode-the-code
+  link: /games/decode-the-code
 - image: /assets/images/field-goal-monsters/banner.png
-  link: /game/field-goal-monsters
+  link: /games/field-goal-monsters
 
 desktop:
 - image: /assets/images/fish-fists/banner.png
-  link: /game/fish-fists
+  link: /games/fish-fists
 - image: /assets/images/jail-run/banner.png
   link: /games/jail-run
 - image: /assets/images/decode-the-code/banner.png
-  link: /game/decode-the-code
+  link: /games/decode-the-code
 - image: /assets/images/space-waste-2020/banner.png
-  link: /game/space-waste-2020
+  link: /games/space-waste-2020
 - image: /assets/images/olympus-farms/banner.png
-  link: /game/olympus-farms
+  link: /games/olympus-farms
 - image: /assets/images/to-the-bunker/banner.png
-  link: /game/to-the-bunker
+  link: /games/to-the-bunker
 - image: /assets/images/the-last-calculus-wizard/banner.png
-  link: /game/the-last-calculus-wizard
+  link: /games/the-last-calculus-wizard
 - image: /assets/images/investi-grape/banner.png
-  link: /game/investi-grape
+  link: /games/investi-grape
 - image: /assets/images/quad-qannon/banner.png
-  link: /game/quad-qannon
+  link: /games/quad-qannon
 - image: /assets/images/scaredy-cat/banner.png
-  link: /game/scaredy-cat
+  link: /games/scaredy-cat
