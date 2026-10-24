@@ -24,5 +24,6 @@ boxes:
   media-type: 0
 credits:
 - Developed by Square Lion
-- Music and Art by Grand Violet
+- Music by Grand Violet
+- Art by Dante Zamichieli and John Walsh
 ---
