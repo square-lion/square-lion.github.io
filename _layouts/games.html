@@ -7,7 +7,7 @@ layout: default
 <div class="container">  
 	<div class="row">  
 		{% for game in site.data.games.mobile %} 
-		<div class="col-lg-4 col-md-6 col-sm-12 game-preview">
+		<div class="col-lg-4 col-md-4 col-6 game-preview">
 		    <a href="{{ game.link }}"><img class="rounded img-fluid" src="{{ game.image }}"></a>
 		</div>
 		{% endfor %}
@@ -19,7 +19,7 @@ layout: default
 <div class="container">  
 	<div class="row">  
 		{% for game in site.data.games.desktop %} 
-		<div class="col-lg-4 col-md-6 col-sm-12 game-preview">
+		<div class="col-lg-3 col-md-3 col-6 game-preview">
 		    <a href="{{ game.link }}"><img class="rounded img-fluid" src="{{ game.image }}"></a>
 		</div>
 		{% endfor %}
