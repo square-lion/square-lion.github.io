@@ -11,8 +11,8 @@ boxes:
 - title: Your Pig Depends On You
   body: Protect the Piggy requires you to defend your most important assets during the zombie apocalypse, your piggy. Protect your piggy from the incoming waves of zombies for as long as you can. Defend against zombies of all speeds, shapes, and sizes. How long can you keep your piggy safe?
   text-side: 1
-  media: /assets/images/protect-the-piggy/banner.png
-  media-type: 0
+  media: https://www.youtube.com/embed/L4Ft5nKAhq8?si=ebpd22oVY6zFu7jm
+  media-type: 1
 - title: Build Your Arsenal
   body: Stronger zombies will require stronger weapons to defeat them. Buy better knives and guns in the shop that increase your damage and attack speed. Some weapons even have special abilities to help you defeat more zombies.
   text-side: 0
