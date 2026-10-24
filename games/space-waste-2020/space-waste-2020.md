@@ -7,7 +7,7 @@ itch-link: https://square-lion.itch.io/space-waste
 font-class: font-default
 boxes:
 - title: Welcome To The Year 2020
-  body: pace Waste 2020 puts you in charge of humanity's greatest endeavor, to spread its trash all over the universe. Overpopulation and trash overflow has forced humanity to colonize Earth's surrounding planets. Control the disposal of garbage and the colonization of new planets. Survive as long as your can and don't run out of space!
+  body: Space Waste 2020 puts you in charge of humanity's greatest endeavor, to spread its trash all over the universe. Overpopulation and trash overflow has forced humanity to colonize Earth's surrounding planets. Control the disposal of garbage and the colonization of new planets. Survive as long as your can and don't run out of space!
   text-side: 1
   media: https://www.youtube.com/embed/IUtw5ewbwNg?si=A7tY11DpztBUM_rm
   media-type: 1
